@@ -4,11 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/test_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/module_list"
+        android:clipToPadding="false"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+        app:spanCount="3"
+        tools:listitem="@layout/module_list_item"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
