@@ -1,0 +1,10 @@
+*.db
+*.pyc
+*.xml
+*.iml
+*.name
+*.idea
+*.config
+*.log
+*.xlsx
+*.json
