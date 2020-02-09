@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80A2BAA223F00E19005D2E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAA123F00E19005D2E39 /* AppDelegate.swift */; };
+		80A2BAA423F00E19005D2E39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAA323F00E19005D2E39 /* SceneDelegate.swift */; };
+		80A2BAA723F00E19005D2E39 /* NanoSparrow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAA523F00E19005D2E39 /* NanoSparrow.xcdatamodeld */; };
+		80A2BAA923F00E19005D2E39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAA823F00E19005D2E39 /* ContentView.swift */; };
+		80A2BAAB23F00E1D005D2E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A2BAAA23F00E1D005D2E39 /* Assets.xcassets */; };
+		80A2BAAE23F00E1D005D2E39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A2BAAD23F00E1D005D2E39 /* Preview Assets.xcassets */; };
+		80A2BAB123F00E1D005D2E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A2BAAF23F00E1D005D2E39 /* LaunchScreen.storyboard */; };
+		80A2BABC23F00E1D005D2E39 /* NanoSparrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BABB23F00E1D005D2E39 /* NanoSparrowTests.swift */; };
+		80A2BAC723F00E1D005D2E39 /* NanoSparrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAC623F00E1D005D2E39 /* NanoSparrowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80A2BAB823F00E1D005D2E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80A2BA9623F00E19005D2E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80A2BA9D23F00E19005D2E39;
+			remoteInfo = NanoSparrow;
+		};
+		80A2BAC323F00E1D005D2E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80A2BA9623F00E19005D2E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80A2BA9D23F00E19005D2E39;
+			remoteInfo = NanoSparrow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80A2BA9E23F00E19005D2E39 /* NanoSparrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoSparrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A2BAA123F00E19005D2E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80A2BAA323F00E19005D2E39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80A2BAA623F00E19005D2E39 /* NanoSparrow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NanoSparrow.xcdatamodel; sourceTree = "<group>"; };
+		80A2BAA823F00E19005D2E39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80A2BAAA23F00E1D005D2E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80A2BAAD23F00E1D005D2E39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80A2BAB023F00E1D005D2E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80A2BAB223F00E1D005D2E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A2BAB723F00E1D005D2E39 /* NanoSparrowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoSparrowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A2BABB23F00E1D005D2E39 /* NanoSparrowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoSparrowTests.swift; sourceTree = "<group>"; };
+		80A2BABD23F00E1D005D2E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A2BAC223F00E1D005D2E39 /* NanoSparrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoSparrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A2BAC623F00E1D005D2E39 /* NanoSparrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoSparrowUITests.swift; sourceTree = "<group>"; };
+		80A2BAC823F00E1D005D2E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A2BAD423F00E2D005D2E39 /* NanoSparrow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NanoSparrow.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80A2BA9B23F00E19005D2E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A2BAB423F00E1D005D2E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A2BABF23F00E1D005D2E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80A2BA9523F00E19005D2E39 = {
+			isa = PBXGroup;
+			children = (
+				80A2BAA023F00E19005D2E39 /* NanoSparrow */,
+				80A2BABA23F00E1D005D2E39 /* NanoSparrowTests */,
+				80A2BAC523F00E1D005D2E39 /* NanoSparrowUITests */,
+				80A2BA9F23F00E19005D2E39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80A2BA9F23F00E19005D2E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80A2BA9E23F00E19005D2E39 /* NanoSparrow.app */,
+				80A2BAB723F00E1D005D2E39 /* NanoSparrowTests.xctest */,
+				80A2BAC223F00E1D005D2E39 /* NanoSparrowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80A2BAA023F00E19005D2E39 /* NanoSparrow */ = {
+			isa = PBXGroup;
+			children = (
+				80A2BAD423F00E2D005D2E39 /* NanoSparrow.entitlements */,
+				80A2BAA123F00E19005D2E39 /* AppDelegate.swift */,
+				80A2BAA323F00E19005D2E39 /* SceneDelegate.swift */,
+				80A2BAA823F00E19005D2E39 /* ContentView.swift */,
+				80A2BAAA23F00E1D005D2E39 /* Assets.xcassets */,
+				80A2BAAF23F00E1D005D2E39 /* LaunchScreen.storyboard */,
+				80A2BAB223F00E1D005D2E39 /* Info.plist */,
+				80A2BAA523F00E19005D2E39 /* NanoSparrow.xcdatamodeld */,
+				80A2BAAC23F00E1D005D2E39 /* Preview Content */,
+			);
+			path = NanoSparrow;
+			sourceTree = "<group>";
+		};
+		80A2BAAC23F00E1D005D2E39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				80A2BAAD23F00E1D005D2E39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80A2BABA23F00E1D005D2E39 /* NanoSparrowTests */ = {
+			isa = PBXGroup;
+			children = (
+				80A2BABB23F00E1D005D2E39 /* NanoSparrowTests.swift */,
+				80A2BABD23F00E1D005D2E39 /* Info.plist */,
+			);
+			path = NanoSparrowTests;
+			sourceTree = "<group>";
+		};
+		80A2BAC523F00E1D005D2E39 /* NanoSparrowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80A2BAC623F00E1D005D2E39 /* NanoSparrowUITests.swift */,
+				80A2BAC823F00E1D005D2E39 /* Info.plist */,
+			);
+			path = NanoSparrowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80A2BA9D23F00E19005D2E39 /* NanoSparrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A2BACB23F00E1D005D2E39 /* Build configuration list for PBXNativeTarget "NanoSparrow" */;
+			buildPhases = (
+				80A2BA9A23F00E19005D2E39 /* Sources */,
+				80A2BA9B23F00E19005D2E39 /* Frameworks */,
+				80A2BA9C23F00E19005D2E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NanoSparrow;
+			productName = NanoSparrow;
+			productReference = 80A2BA9E23F00E19005D2E39 /* NanoSparrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80A2BAB623F00E1D005D2E39 /* NanoSparrowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A2BACE23F00E1D005D2E39 /* Build configuration list for PBXNativeTarget "NanoSparrowTests" */;
+			buildPhases = (
+				80A2BAB323F00E1D005D2E39 /* Sources */,
+				80A2BAB423F00E1D005D2E39 /* Frameworks */,
+				80A2BAB523F00E1D005D2E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80A2BAB923F00E1D005D2E39 /* PBXTargetDependency */,
+			);
+			name = NanoSparrowTests;
+			productName = NanoSparrowTests;
+			productReference = 80A2BAB723F00E1D005D2E39 /* NanoSparrowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80A2BAC123F00E1D005D2E39 /* NanoSparrowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A2BAD123F00E1D005D2E39 /* Build configuration list for PBXNativeTarget "NanoSparrowUITests" */;
+			buildPhases = (
+				80A2BABE23F00E1D005D2E39 /* Sources */,
+				80A2BABF23F00E1D005D2E39 /* Frameworks */,
+				80A2BAC023F00E1D005D2E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80A2BAC423F00E1D005D2E39 /* PBXTargetDependency */,
+			);
+			name = NanoSparrowUITests;
+			productName = NanoSparrowUITests;
+			productReference = 80A2BAC223F00E1D005D2E39 /* NanoSparrowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80A2BA9623F00E19005D2E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = NanoSparrow;
+				TargetAttributes = {
+					80A2BA9D23F00E19005D2E39 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					80A2BAB623F00E1D005D2E39 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 80A2BA9D23F00E19005D2E39;
+					};
+					80A2BAC123F00E1D005D2E39 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 80A2BA9D23F00E19005D2E39;
+					};
+				};
+			};
+			buildConfigurationList = 80A2BA9923F00E19005D2E39 /* Build configuration list for PBXProject "NanoSparrow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80A2BA9523F00E19005D2E39;
+			productRefGroup = 80A2BA9F23F00E19005D2E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80A2BA9D23F00E19005D2E39 /* NanoSparrow */,
+				80A2BAB623F00E1D005D2E39 /* NanoSparrowTests */,
+				80A2BAC123F00E1D005D2E39 /* NanoSparrowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80A2BA9C23F00E19005D2E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A2BAB123F00E1D005D2E39 /* LaunchScreen.storyboard in Resources */,
+				80A2BAAE23F00E1D005D2E39 /* Preview Assets.xcassets in Resources */,
+				80A2BAAB23F00E1D005D2E39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A2BAB523F00E1D005D2E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A2BAC023F00E1D005D2E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80A2BA9A23F00E19005D2E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A2BAA223F00E19005D2E39 /* AppDelegate.swift in Sources */,
+				80A2BAA723F00E19005D2E39 /* NanoSparrow.xcdatamodeld in Sources */,
+				80A2BAA923F00E19005D2E39 /* ContentView.swift in Sources */,
+				80A2BAA423F00E19005D2E39 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A2BAB323F00E1D005D2E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A2BABC23F00E1D005D2E39 /* NanoSparrowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A2BABE23F00E1D005D2E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A2BAC723F00E1D005D2E39 /* NanoSparrowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80A2BAB923F00E1D005D2E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80A2BA9D23F00E19005D2E39 /* NanoSparrow */;
+			targetProxy = 80A2BAB823F00E1D005D2E39 /* PBXContainerItemProxy */;
+		};
+		80A2BAC423F00E1D005D2E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80A2BA9D23F00E19005D2E39 /* NanoSparrow */;
+			targetProxy = 80A2BAC323F00E1D005D2E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80A2BAAF23F00E1D005D2E39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80A2BAB023F00E1D005D2E39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80A2BAC923F00E1D005D2E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80A2BACA23F00E1D005D2E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80A2BACC23F00E1D005D2E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NanoSparrow/NanoSparrow.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NanoSparrow/Preview Content\"";
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NanoSparrow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow.NanoSparrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80A2BACD23F00E1D005D2E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NanoSparrow/NanoSparrow.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NanoSparrow/Preview Content\"";
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NanoSparrow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow.NanoSparrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80A2BACF23F00E1D005D2E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				INFOPLIST_FILE = NanoSparrowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow.NanoSparrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoSparrow.app/NanoSparrow";
+			};
+			name = Debug;
+		};
+		80A2BAD023F00E1D005D2E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				INFOPLIST_FILE = NanoSparrowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow.NanoSparrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoSparrow.app/NanoSparrow";
+			};
+			name = Release;
+		};
+		80A2BAD223F00E1D005D2E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				INFOPLIST_FILE = NanoSparrowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow.NanoSparrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NanoSparrow;
+			};
+			name = Debug;
+		};
+		80A2BAD323F00E1D005D2E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				INFOPLIST_FILE = NanoSparrowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow.NanoSparrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NanoSparrow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80A2BA9923F00E19005D2E39 /* Build configuration list for PBXProject "NanoSparrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A2BAC923F00E1D005D2E39 /* Debug */,
+				80A2BACA23F00E1D005D2E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80A2BACB23F00E1D005D2E39 /* Build configuration list for PBXNativeTarget "NanoSparrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A2BACC23F00E1D005D2E39 /* Debug */,
+				80A2BACD23F00E1D005D2E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80A2BACE23F00E1D005D2E39 /* Build configuration list for PBXNativeTarget "NanoSparrowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A2BACF23F00E1D005D2E39 /* Debug */,
+				80A2BAD023F00E1D005D2E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80A2BAD123F00E1D005D2E39 /* Build configuration list for PBXNativeTarget "NanoSparrowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A2BAD223F00E1D005D2E39 /* Debug */,
+				80A2BAD323F00E1D005D2E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80A2BAA523F00E19005D2E39 /* NanoSparrow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80A2BAA623F00E19005D2E39 /* NanoSparrow.xcdatamodel */,
+			);
+			currentVersion = 80A2BAA623F00E19005D2E39 /* NanoSparrow.xcdatamodel */;
+			path = NanoSparrow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80A2BA9623F00E19005D2E39 /* Project object */;
+}
