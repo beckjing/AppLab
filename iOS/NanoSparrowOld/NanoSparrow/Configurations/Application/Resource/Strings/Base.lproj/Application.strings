@@ -1,0 +1,25 @@
+/* 
+  Application.strings
+  nanosparrow
+
+  Created by yuecheng on 12/7/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+"Application.Demo"                  = "Demo";
+
+"Application.ImageAndVideoToLive"   = "ImageAndVideoToLive";
+
+"Application.CropVideoFrame"        = "CropVideoFrame";
+
+"Application.LongitudeAndLatitude"  = "LongitudeAndLatitude";
+
+"Application.MulitpeerConnectivity" = "MulitpeerConnectivity";
+
+"Application.ReverseVideo"          = "ReverseVideo";
+
+"Application.AugmentedReality"      = "AugmentedReality";
+
+"Application.WeatherReport"         = "WeatherReport";
+
+"Application.Database"              = "Database";

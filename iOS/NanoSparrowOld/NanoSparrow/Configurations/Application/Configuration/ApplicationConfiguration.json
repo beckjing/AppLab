@@ -1,0 +1,84 @@
+[
+    {
+        "appID": "0",
+        "appName": {
+            "localizedTable": "Application",
+            "localizedKey": "Application.Demo"
+        },
+        "appImageName": "",
+        "OSVersion": "9.0",
+        "VCName": "NASDemoViewController"
+    },
+    {
+        "appID": "1",
+        "appName": {
+            "localizedTable": "Application",
+            "localizedKey": "Application.ImageAndVideoToLive"
+        },
+        "appImageName": "livePhoto",
+        "OSVersion": "9.1",
+        "VCName": "NASImageAndVideoToLiveViewController"
+    },
+    {
+        "appID": "2",
+        "appName": {
+            "localizedTable": "Application",
+            "localizedKey": "Application.CropVideoFrame"
+        },
+        "appImageName": "cropVideoFrame",
+        "OSVersion": "9.0",
+        "VCName": "NASCropVideoFrameViewController"
+    },
+    {
+        "appID": "3",
+        "appName": {
+            "localizedTable": "Application",
+            "localizedKey": "Application.LongitudeAndLatitude"
+        },
+        "appImageName": "LongitudeAndLatitude",
+        "OSVersion": "9.0",
+        "VCName": "NASLongitudeAndLatitudeViewController"
+    },
+    {
+        "appID": "4",
+        "appName": {
+            "localizedTable": "Application",
+            "localizedKey": "Application.Database"
+        },
+        "appImageName": "database",
+        "OSVersion": "9.0",
+        "VCName": "NASDatabaseDemoViewController"
+    },
+    {
+        "appID": "5",
+        "appName": {
+            "localizedTable": "Application",
+            "localizedKey": "Application.ReverseVideo"
+        },
+        "appImageName": "ReverseVideo",
+        "OSVersion": "9.0",
+        "VCName": "NASReverseVideoViewController"
+    },
+    {
+        "appID": "6",
+        "appName": {
+            "localizedTable": "Application",
+            "localizedKey": "Application.WeatherReport"
+        },
+        "appImageName": "Weather",
+        "OSVersion": "9.0",
+        "VCName": "NASWeatherReportViewController"
+    },
+    {
+        "appID": "7",
+        "appName": {
+            "localizedTable": "Application",
+            "localizedKey": "Application.MetalCNN"
+        },
+        "appImageName": "MetalCNN",
+        "OSVersion": "10.3",
+        "VCName": "NASMetalCNNViewController"
+    }
+]
+
+

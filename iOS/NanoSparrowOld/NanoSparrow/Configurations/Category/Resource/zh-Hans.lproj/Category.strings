@@ -1,0 +1,23 @@
+/* 
+  Category.strings
+  nanosparrow
+
+  Created by yuecheng on 12/7/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+"Category.Demo"                = "演示";
+
+"Category.AugmentedReality"    = "增强现实";
+
+"Category.PhotographyAndVideo" = "摄影和录像";
+
+"Category.Location"            = "地理位置";
+
+"Category.Database"            = "数据库";
+
+"Category.Weather"             = "天气";
+
+"Category.MachineLearning"     = "机器学习";
+
+"Category.Nearby"              = "近距离应用";

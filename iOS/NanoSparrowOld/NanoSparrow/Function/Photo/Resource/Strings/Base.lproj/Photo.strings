@@ -1,0 +1,9 @@
+/* 
+  Photo.strings
+  NanoSparrow
+
+  Created by yuecheng on 12/13/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+"Photo.authorizationRequestMessage" = "Perhaps you didn't authorize NanoSparrow to access your Photos Library, so click Confirm to Settings page or you can go to \"Settings>Privacy>Camera\" to authorize";

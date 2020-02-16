@@ -1,0 +1,58 @@
+[
+    {
+        "categoryID": "0",
+        "categoryName": {
+        "localizedTable": "Category",
+        "localizedKey": "Category.Demo"
+        }
+    },
+    {
+        "categoryID": "1",
+        "categoryName": {
+            "localizedTable": "Category",
+            "localizedKey": "Category.PhotographyAndVideo"
+        }
+    },
+    {
+        "categoryID": "2",
+        "categoryName": {
+        "localizedTable": "Category",
+        "localizedKey": "Category.Location"
+        }
+    },
+    {
+        "categoryID": "3",
+        "categoryName": {
+        "localizedTable": "Category",
+        "localizedKey": "Category.AugmentedReality"
+        }
+    },
+    {
+        "categoryID": "4",
+        "categoryName": {
+        "localizedTable": "Category",
+        "localizedKey": "Category.Database"
+        }
+    },
+    {
+        "categoryID": "5",
+        "categoryName": {
+        "localizedTable": "Category",
+        "localizedKey": "Category.Weather"
+        }
+    },
+    {
+        "categoryID": "6",
+        "categoryName": {
+        "localizedTable": "Category",
+        "localizedKey": "Category.MachineLearning"
+        }
+    },
+    {
+        "categoryID": "100",
+        "categoryName": {
+            "localizedTable": "Category",
+            "localizedKey": "Category.Nearby"
+        }
+    }
+]

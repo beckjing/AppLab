@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NASLongitudeAndLatitudeViewController">
+            <connections>
+                <outlet property="latitudeLabel" destination="eIM-Ck-pwd" id="UmV-6P-9ov"/>
+                <outlet property="longitudeLabel" destination="rQJ-EW-WOu" id="9L1-Cy-395"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitude" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZS-oe-TBG">
+                    <rect key="frame" x="20" y="20" width="76.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitude" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91C-9R-4e9">
+                    <rect key="frame" x="20" y="61" width="63" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQJ-EW-WOu">
+                    <rect key="frame" x="116" y="20" width="24" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIM-Ck-pwd">
+                    <rect key="frame" x="116" y="61" width="24" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="91C-9R-4e9" firstAttribute="top" secondItem="KZS-oe-TBG" secondAttribute="bottom" constant="20" id="2AA-YE-ez6"/>
+                <constraint firstItem="eIM-Ck-pwd" firstAttribute="leading" secondItem="rQJ-EW-WOu" secondAttribute="leading" id="Raq-GZ-Qhq"/>
+                <constraint firstItem="eIM-Ck-pwd" firstAttribute="centerY" secondItem="91C-9R-4e9" secondAttribute="centerY" id="c8y-5u-tMG"/>
+                <constraint firstItem="91C-9R-4e9" firstAttribute="leading" secondItem="KZS-oe-TBG" secondAttribute="leading" id="eCG-Nf-7YX"/>
+                <constraint firstItem="rQJ-EW-WOu" firstAttribute="leading" secondItem="KZS-oe-TBG" secondAttribute="trailing" constant="20" id="nYt-Ir-Kgu"/>
+                <constraint firstItem="rQJ-EW-WOu" firstAttribute="centerY" secondItem="KZS-oe-TBG" secondAttribute="centerY" id="sOf-hl-aPa"/>
+                <constraint firstItem="KZS-oe-TBG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="xmp-WC-HuU"/>
+                <constraint firstItem="KZS-oe-TBG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="zh9-Qt-AsU"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,23 @@
+/* 
+  InfoPlist.strings
+  nanosparrow
+
+  Created by yuecheng on 12/8/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+CFBundleDisplayName = "NanoSparrow";
+
+NSLocationAlwaysAndWhenInUseUsageDescription = "NanoSparrow will show you how the location services work, need you to authorize the usage of location.";
+
+NSLocationAlwaysUsageDescription             = "NanoSparrow will show you how the location services work, need you to authorize the usage of location.";
+
+NSLocationWhenInUseUsageDescription          = "NanoSparrow will show you how the location services work, need you to authorize the usage of location.";
+
+NSLocationUsageDescription                   = "NanoSparrow will show you how the location services work, need you to authorize the usage of location.";
+
+NSPhotoLibraryUsageDescription               = "NanoSparrow needs to access your PhotoLibrary to edit photo and video.";
+
+NSPhotoLibraryAddUsageDescription            = "NanoSparrow needs to access your PhotoLibrary to edit photo and video.";
+
+UILaunchStoryboardName = "LaunchScreen_en";

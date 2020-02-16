@@ -1,0 +1,23 @@
+/* 
+  InfoPlist.strings
+  nanosparrow
+
+  Created by yuecheng on 12/8/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+CFBundleDisplayName = "码小农具";
+
+NSLocationAlwaysAndWhenInUseUsageDescription = "码小农具需要访问您的地理位置信息来展示定位服务是如何工作的。";
+
+NSLocationAlwaysUsageDescription             = "码小农具需要访问您的地理位置信息来展示定位服务是如何工作的。";
+
+NSLocationWhenInUseUsageDescription          = "码小农具需要访问您的地理位置信息来展示定位服务是如何工作的。";
+
+NSLocationUsageDescription                   = "码小农具需要访问您的地理位置信息来展示定位服务是如何工作的。";
+
+NSPhotoLibraryUsageDescription               = "码小农具需要访问您的相册来编辑照片和视频。";
+
+NSPhotoLibraryAddUsageDescription            = "码小农具需要访问您的相册来编辑照片和视频。";
+
+UILaunchStoryboardName = "LaunchScreen_zh";

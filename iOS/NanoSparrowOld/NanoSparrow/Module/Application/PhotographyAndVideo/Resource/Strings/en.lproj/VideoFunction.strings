@@ -1,0 +1,27 @@
+/* 
+  VideoFunction.strings
+  NanoSparrow
+
+  Created by yuecheng on 12/18/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+"AspectRatio" = "Aspect Ratio";
+
+"ChangeAspectRatio" = "Change Aspect Ratio";
+
+"AspectRatio_1_1"   = "1:1";
+
+"AspectRatio_4_3"   = "4:3";
+
+"AspectRatio_3_4"   = "3:4";
+
+"AspectRatio_16_9"  = "16:9";
+
+"AspectRatio_9_16"  = "9:16";
+
+"ExportSuccess"     = "Export successfully";
+
+"ExportFailed"      = "Export failed";
+
+"Exporting"         = "Exporting...";

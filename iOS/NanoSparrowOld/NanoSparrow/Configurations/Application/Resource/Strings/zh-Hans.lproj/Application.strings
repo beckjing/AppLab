@@ -1,0 +1,25 @@
+/* 
+  Application.strings
+  nanosparrow
+
+  Created by yuecheng on 12/7/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+"Application.Demo"                  = "演示";
+
+"Application.ImageAndVideoToLive"   = "照片和视频转换为Live照片";
+
+"Application.CropVideoFrame"        = "剪裁视频大小";
+
+"Application.LongitudeAndLatitude"  = "经纬度";
+
+"Application.MulitpeerConnectivity" = "多点连接";
+
+"Application.ReverseVideo"          = "视频倒放";
+
+"Application.AugmentedReality"      = "增强现实";
+
+"Application.WeatherReport"         = "天气预报";
+
+"Application.Database"              = "数据库";

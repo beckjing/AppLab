@@ -1,0 +1,34 @@
+[
+  {
+    "categoryID": "0",
+    "appIDs": [
+      "0"
+      ]
+  },
+  {
+    "categoryID": "1",
+    "appIDs": [
+      "1",
+      "2",
+      "5"
+    ]
+  },
+  {
+    "categoryID": "5",
+    "appIDs": [
+      "6"
+      ]
+  },
+  {
+    "categoryID": "6",
+    "appIDs": [
+      "7"
+      ]
+  },
+  {
+    "categoryID": "2",
+    "appIDs": [
+      "3"
+      ]
+  },
+]

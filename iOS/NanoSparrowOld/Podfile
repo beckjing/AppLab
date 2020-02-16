@@ -1,0 +1,16 @@
+platform :ios, '9.0'
+target 'NanoSparrow' do
+    pod 'AFNetworking'
+    pod 'Masonry'
+    pod 'SDWebImage'
+    pod 'OpenUDID'
+    pod 'SocketRocket'
+    pod 'JSONModel'
+    pod 'KSCrash'
+    pod 'GPUImage'
+    pod 'ReactiveObjC'
+    pod 'MBProgressHUD'
+    pod 'FLEX'
+    pod 'FMDB'
+    pod 'NASOperationQueue', :path => '../NASOperationQueue'
+end

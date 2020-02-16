@@ -1,0 +1,2963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		376A217D2099AAC00098DAB0 /* NASWifiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 376A217C2099AAC00098DAB0 /* NASWifiManager.m */; };
+		801BA48C20454B5B0061BEE5 /* NASWeatherReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BA48A20454B5B0061BEE5 /* NASWeatherReportViewController.m */; };
+		801BA48D20454B5B0061BEE5 /* NASWeatherReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 801BA48B20454B5B0061BEE5 /* NASWeatherReportViewController.xib */; };
+		801BA49220454D930061BEE5 /* NASWeatherReportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BA49120454D930061BEE5 /* NASWeatherReportManager.m */; };
+		801BA496204558EC0061BEE5 /* SourceHanSerif.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 801BA495204558EC0061BEE5 /* SourceHanSerif.ttc */; };
+		801BE9521FDE64FB00B6546C /* UIWindow+FLEX.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BE9511FDE64FB00B6546C /* UIWindow+FLEX.m */; };
+		801BE9541FDE67E500B6546C /* Application.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801BE9531FDE67E500B6546C /* Application.xcassets */; };
+		801BE9591FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BE9571FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.m */; };
+		801BE95A1FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 801BE9581FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.xib */; };
+		801BE9621FDE70DD00B6546C /* NASCropVideoFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BE9601FDE70DD00B6546C /* NASCropVideoFrameViewController.m */; };
+		801BE9631FDE70DD00B6546C /* NASCropVideoFrameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 801BE9611FDE70DD00B6546C /* NASCropVideoFrameViewController.xib */; };
+		801BE9671FDE710700B6546C /* NASCropVideoFrameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BE9661FDE710700B6546C /* NASCropVideoFrameManager.m */; };
+		801BE96D1FDE7EF100B6546C /* NASFileSystemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BE96C1FDE7EF100B6546C /* NASFileSystemManager.m */; };
+		801BE9711FDE801800B6546C /* NASPhotoFunctionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BE9701FDE801800B6546C /* NASPhotoFunctionManager.m */; };
+		801BE9C41FDEAA2100B6546C /* NASVideoSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BE9C31FDEAA2100B6546C /* NASVideoSettingModel.m */; };
+		801BE9C81FDEAB1700B6546C /* NASCropVideoFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BE9C71FDEAB1700B6546C /* NASCropVideoFrameModel.m */; };
+		801CCAED1FD9085A00468EFF /* NASBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCAEC1FD9085A00468EFF /* NASBaseModel.m */; };
+		801CCAF61FD9097700468EFF /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCAF41FD9097700468EFF /* UIColor+Hex.m */; };
+		801CCB0C1FD916FC00468EFF /* NASNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCB071FD916FC00468EFF /* NASNetworkManager.m */; };
+		801CCB0D1FD916FC00468EFF /* NASNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCB0B1FD916FC00468EFF /* NASNetworkRequest.m */; };
+		801CCB1F1FD91CDD00468EFF /* NASWebSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCB1E1FD91CDD00468EFF /* NASWebSocketManager.m */; };
+		801CCB221FD91CE700468EFF /* NASWebSocketRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCB211FD91CE700468EFF /* NASWebSocketRequest.m */; };
+		801CCB371FD9234F00468EFF /* CategoryVC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801CCB361FD9234F00468EFF /* CategoryVC.xcassets */; };
+		801CCB4F1FD928FD00468EFF /* NASLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCB4E1FD928FD00468EFF /* NASLocationManager.m */; };
+		801CCB971FD9495D00468EFF /* NASLocalizedStringModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCB961FD9495D00468EFF /* NASLocalizedStringModel.m */; };
+		801CCB9C1FD94BC000468EFF /* NASCategoryLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCB9B1FD94BC000468EFF /* NASCategoryLoadManager.m */; };
+		801CCBA11FD94C4700468EFF /* NASApplicationLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCBA01FD94C4700468EFF /* NASApplicationLoadManager.m */; };
+		801CCBA61FD94FB400468EFF /* NASCategoryLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCBA51FD94FB400468EFF /* NASCategoryLoadModel.m */; };
+		801CCBAB1FD9590900468EFF /* NASApplicationLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 801CCBAA1FD9590900468EFF /* NASApplicationLoadModel.m */; };
+		801EC0C11FD9672900AE38FB /* LaunchScreen_en.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801EC0C31FD9672900AE38FB /* LaunchScreen_en.storyboard */; };
+		80227B6D1FDFC6AA008533F9 /* add_photo@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80227B6C1FDFC6A9008533F9 /* add_photo@1x.png */; };
+		80227B701FDFC6DF008533F9 /* ImagePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80227B721FDFC6DF008533F9 /* ImagePicker.strings */; };
+		80227B781FDFC960008533F9 /* NASBaseViewControllerCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 80227B771FDFC960008533F9 /* NASBaseViewControllerCoordinator.m */; };
+		80227B7D1FDFCD25008533F9 /* NASImagePickerCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 80227B7C1FDFCD25008533F9 /* NASImagePickerCoordinator.m */; };
+		8031F1921FDA4B9600855F78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1941FDA4B9600855F78 /* InfoPlist.strings */; };
+		8031F19B1FDA4C0800855F78 /* LaunchScreen_zh.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1991FDA4C0700855F78 /* LaunchScreen_zh.storyboard */; };
+		8031F1A51FDA77D300855F78 /* CategoryConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1A41FDA77D200855F78 /* CategoryConfiguration.json */; };
+		8031F1A81FDA77E500855F78 /* ApplicationConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1A71FDA77E400855F78 /* ApplicationConfiguration.json */; };
+		8031F1AB1FDA77F300855F78 /* CategoryVCConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1AA1FDA77F300855F78 /* CategoryVCConfiguration.json */; };
+		8031F1B01FDA781000855F78 /* NASCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F1AF1FDA781000855F78 /* NASCategoryViewController.m */; };
+		8031F1B51FDA783F00855F78 /* Category.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1B21FDA783F00855F78 /* Category.strings */; };
+		8031F1BB1FDA787300855F78 /* Application.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1B81FDA787300855F78 /* Application.strings */; };
+		8031F1C21FDA792800855F78 /* CategoryVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1BF1FDA792800855F78 /* CategoryVC.strings */; };
+		8031F1CE1FDA796F00855F78 /* FeaturedVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1C61FDA796E00855F78 /* FeaturedVC.strings */; };
+		8031F1CF1FDA796F00855F78 /* FeaturedVC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1C91FDA796E00855F78 /* FeaturedVC.xcassets */; };
+		8031F1D01FDA796F00855F78 /* NASFeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F1CC1FDA796F00855F78 /* NASFeaturedViewController.m */; };
+		8031F1D61FDA799C00855F78 /* NASMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F1D51FDA799C00855F78 /* NASMainViewController.m */; };
+		8031F1E11FDA79CE00855F78 /* NASSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F1DA1FDA79CE00855F78 /* NASSearchViewController.m */; };
+		8031F1E21FDA79CE00855F78 /* SearchVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1DD1FDA79CE00855F78 /* SearchVC.strings */; };
+		8031F1EF1FDA7A1100855F78 /* NASMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F1E71FDA7A1100855F78 /* NASMineViewController.m */; };
+		8031F1F01FDA7A1100855F78 /* MineVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1EB1FDA7A1100855F78 /* MineVC.strings */; };
+		8031F1F11FDA7A1100855F78 /* MineVC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8031F1EE1FDA7A1100855F78 /* MineVC.xcassets */; };
+		8031F1F61FDA7BE900855F78 /* NASCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F1F51FDA7BE900855F78 /* NASCategoryModel.m */; };
+		8031F1FA1FDA7C5400855F78 /* NASCategoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F1F91FDA7C5400855F78 /* NASCategoryManager.m */; };
+		8031F2021FDA81F700855F78 /* NASBaseLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F2011FDA81F700855F78 /* NASBaseLoadManager.m */; };
+		8031F2181FDA8D1800855F78 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F2151FDA8D1800855F78 /* NSMutableArray+Safe.m */; };
+		8031F21B1FDA8D2F00855F78 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F21A1FDA8D2F00855F78 /* NSArray+Safe.m */; };
+		8031F2461FDAA4D900855F78 /* NASCategoryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F2431FDAA4D900855F78 /* NASCategoryFlowLayout.m */; };
+		8031F24B1FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8031F2491FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.m */; };
+		8031F24C1FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8031F24A1FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.xib */; };
+		80329DBE1FD798EA00CE8374 /* NASBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80329DBD1FD798EA00CE8374 /* NASBaseViewController.m */; };
+		80401EE81FE766DE0011FA83 /* NASApplicationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80401EE61FE766DE0011FA83 /* NASApplicationCollectionViewCell.m */; };
+		80401EE91FE766DE0011FA83 /* NASApplicationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80401EE71FE766DE0011FA83 /* NASApplicationCollectionViewCell.xib */; };
+		80401EED1FE76A7C0011FA83 /* NASFeaturedCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 80401EEC1FE76A7C0011FA83 /* NASFeaturedCollectionViewFlowLayout.m */; };
+		80401EF21FE78EE30011FA83 /* FeaturedVCConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 80401EF11FE78EE30011FA83 /* FeaturedVCConfiguration.json */; };
+		80401EF61FE78F780011FA83 /* NASFeaturedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80401EF51FE78F780011FA83 /* NASFeaturedManager.m */; };
+		80401EFB1FE7A4160011FA83 /* VideoFunction.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80401EFD1FE7A4160011FA83 /* VideoFunction.strings */; };
+		8040322B1FE7DAFD00E8C2A1 /* UIView+Subview.m in Sources */ = {isa = PBXBuildFile; fileRef = 8040322A1FE7DAFD00E8C2A1 /* UIView+Subview.m */; };
+		804032301FE7E34100E8C2A1 /* AVAsset+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = 8040322F1FE7E34100E8C2A1 /* AVAsset+Display.m */; };
+		804097CB1FE0C29500F28C14 /* NASImagePickerAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804097C91FE0C29500F28C14 /* NASImagePickerAlbumViewController.m */; };
+		804097CC1FE0C29500F28C14 /* NASImagePickerAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804097CA1FE0C29500F28C14 /* NASImagePickerAlbumViewController.xib */; };
+		804097D11FE0C54C00F28C14 /* NASImagePickerAlbumFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 804097D01FE0C54C00F28C14 /* NASImagePickerAlbumFlowLayout.m */; };
+		804097D51FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 804097D31FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.m */; };
+		804097D61FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804097D41FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.xib */; };
+		804755301FF256CC0046C64D /* add_movie@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8047552F1FF256CC0046C64D /* add_movie@1x.png */; };
+		804755321FF25C400046C64D /* boom@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 804755311FF25C400046C64D /* boom@1x.png */; };
+		804988601FE227AB00CD53D4 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8049885F1FE227AB00CD53D4 /* NSMutableDictionary+Safe.m */; };
+		804988651FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804988631FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.m */; };
+		804988661FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804988641FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.xib */; };
+		8049886C1FE24B2F00CD53D4 /* NASBaseFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8049886B1FE24B2F00CD53D4 /* NASBaseFlowLayout.m */; };
+		8049886F1FE24C1E00CD53D4 /* NASImagePickerPhotoFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8049886E1FE24C1E00CD53D4 /* NASImagePickerPhotoFlowLayout.m */; };
+		804988731FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 804988711FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.m */; };
+		804988741FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804988721FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.xib */; };
+		804988791FE2936300CD53D4 /* NASTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804988781FE2936300CD53D4 /* NASTimeManager.m */; };
+		804F4C221FE0E66B00995D9A /* NASPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804F4C211FE0E66B00995D9A /* NASPhotoManager.m */; };
+		804F4C321FE0ED5E00995D9A /* Common.strings in Resources */ = {isa = PBXBuildFile; fileRef = 804F4C341FE0ED5E00995D9A /* Common.strings */; };
+		804F4C3B1FE0EEBA00995D9A /* Photo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 804F4C3D1FE0EEBA00995D9A /* Photo.strings */; };
+		804F4C451FE0FBA400995D9A /* NASSystemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804F4C441FE0FBA400995D9A /* NASSystemManager.m */; };
+		804F4C4F1FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804F4C4D1FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.m */; };
+		804F4C501FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804F4C4E1FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.xib */; };
+		804F4C541FE120BB00995D9A /* NASOpenSystemSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804F4C531FE120BB00995D9A /* NASOpenSystemSettingManager.m */; };
+		80553BCD1FDCEC820091717B /* NASImageAndVideoToLiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80553BCC1FDCEC820091717B /* NASImageAndVideoToLiveManager.m */; };
+		8067B10A1FF49E6100C37954 /* NASDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8067B1091FF49E6100C37954 /* NASDatabaseManager.m */; };
+		8067B1141FF4A7B200C37954 /* NASARDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8067B1121FF4A7B200C37954 /* NASARDemoViewController.m */; };
+		8067B1151FF4A7B200C37954 /* NASARDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8067B1131FF4A7B200C37954 /* NASARDemoViewController.xib */; };
+		8067B11B1FF4C21F00C37954 /* NASDemoStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8067B11A1FF4C21F00C37954 /* NASDemoStudentModel.m */; };
+		8070535D1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8070535B1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.m */; };
+		8070535E1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8070535C1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.xib */; };
+		807053631FEA4CCB002FC6A5 /* NASARCheckManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 807053621FEA4CCB002FC6A5 /* NASARCheckManager.m */; };
+		8070536B1FEA66FE002FC6A5 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8070536A1FEA66FE002FC6A5 /* Models.scnassets */; };
+		8074758E1FE3A91300184516 /* Location.strings in Resources */ = {isa = PBXBuildFile; fileRef = 807475901FE3A91300184516 /* Location.strings */; };
+		807475971FE3D87200184516 /* NASVideoResizeAndRotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807475951FE3D87200184516 /* NASVideoResizeAndRotateViewController.m */; };
+		8074759D1FE3E12E00184516 /* NASVideoResizeAndRotateCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8074759C1FE3E12E00184516 /* NASVideoResizeAndRotateCoordinator.m */; };
+		807475A11FE3EBE300184516 /* NASVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 807475A01FE3EBE300184516 /* NASVideoPlayer.m */; };
+		8089A9B42043A3DB00FFAEE0 /* NASReverseVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8089A9B22043A3DB00FFAEE0 /* NASReverseVideoViewController.m */; };
+		8089A9B52043A3DB00FFAEE0 /* NASReverseVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8089A9B32043A3DB00FFAEE0 /* NASReverseVideoViewController.xib */; };
+		8089A9BA2043D6FB00FFAEE0 /* NASReverseVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8089A9B92043D6FB00FFAEE0 /* NASReverseVideoManager.m */; };
+		80AA19D120592CEB00213B60 /* NASMetalCNNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AA19CF20592CEB00213B60 /* NASMetalCNNViewController.m */; };
+		80AA19D220592CEB00213B60 /* NASMetalCNNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AA19D020592CEB00213B60 /* NASMetalCNNViewController.xib */; };
+		80B2196E1FD55FE8006B4416 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B2196D1FD55FE8006B4416 /* AppDelegate.m */; };
+		80B219741FD55FE8006B4416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B219721FD55FE8006B4416 /* Main.storyboard */; };
+		80B219771FD55FE8006B4416 /* NanoSparrow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80B219751FD55FE8006B4416 /* NanoSparrow.xcdatamodeld */; };
+		80B219791FD55FE8006B4416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B219781FD55FE8006B4416 /* Assets.xcassets */; };
+		80B2197F1FD55FE8006B4416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B2197E1FD55FE8006B4416 /* main.m */; };
+		80CF4E141FFDDF110007FB15 /* NASDatabaseDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CF4E121FFDDF110007FB15 /* NASDatabaseDemoViewController.m */; };
+		80CF4E151FFDDF110007FB15 /* NASDatabaseDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80CF4E131FFDDF110007FB15 /* NASDatabaseDemoViewController.xib */; };
+		80CF4E241FFDE2390007FB15 /* NASDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CF4E221FFDE2390007FB15 /* NASDemoViewController.m */; };
+		80CF4E251FFDE2390007FB15 /* NASDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80CF4E231FFDE2390007FB15 /* NASDemoViewController.xib */; };
+		80DB55BB201B0B9C00396A15 /* NanoSparrowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DB55BA201B0B9C00396A15 /* NanoSparrowUITests.m */; };
+		80DB55C9201B0BAB00396A15 /* NanoSparrowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DB55C8201B0BAB00396A15 /* NanoSparrowTests.m */; };
+		EE6CB91D071048E2A7BB0C55 /* libPods-NanoSparrow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA9A893741F5D8486F1AD02 /* libPods-NanoSparrow.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80DB55BD201B0B9C00396A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B219611FD55FE8006B4416 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B219681FD55FE8006B4416;
+			remoteInfo = NanoSparrow;
+		};
+		80DB55CB201B0BAB00396A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B219611FD55FE8006B4416 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B219681FD55FE8006B4416;
+			remoteInfo = NanoSparrow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D4AAE9249A1BF62869A7FBC /* Pods-NanoSparrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanoSparrow.release.xcconfig"; path = "Pods/Target Support Files/Pods-NanoSparrow/Pods-NanoSparrow.release.xcconfig"; sourceTree = "<group>"; };
+		376A217B2099AAC00098DAB0 /* NASWifiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASWifiManager.h; sourceTree = "<group>"; };
+		376A217C2099AAC00098DAB0 /* NASWifiManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASWifiManager.m; sourceTree = "<group>"; };
+		6ECD7EB2FE199674D380ED5D /* Pods-NanoSparrow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanoSparrow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NanoSparrow/Pods-NanoSparrow.debug.xcconfig"; sourceTree = "<group>"; };
+		801BA48920454B5B0061BEE5 /* NASWeatherReportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASWeatherReportViewController.h; sourceTree = "<group>"; };
+		801BA48A20454B5B0061BEE5 /* NASWeatherReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASWeatherReportViewController.m; sourceTree = "<group>"; };
+		801BA48B20454B5B0061BEE5 /* NASWeatherReportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASWeatherReportViewController.xib; sourceTree = "<group>"; };
+		801BA49020454D930061BEE5 /* NASWeatherReportManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASWeatherReportManager.h; sourceTree = "<group>"; };
+		801BA49120454D930061BEE5 /* NASWeatherReportManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASWeatherReportManager.m; sourceTree = "<group>"; };
+		801BA495204558EC0061BEE5 /* SourceHanSerif.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = SourceHanSerif.ttc; sourceTree = "<group>"; };
+		801BE9501FDE64FB00B6546C /* UIWindow+FLEX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FLEX.h"; sourceTree = "<group>"; };
+		801BE9511FDE64FB00B6546C /* UIWindow+FLEX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+FLEX.m"; sourceTree = "<group>"; };
+		801BE9531FDE67E500B6546C /* Application.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Application.xcassets; sourceTree = "<group>"; };
+		801BE9561FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASImageAndVideoToLiveViewController.h; sourceTree = "<group>"; };
+		801BE9571FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASImageAndVideoToLiveViewController.m; sourceTree = "<group>"; };
+		801BE9581FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASImageAndVideoToLiveViewController.xib; sourceTree = "<group>"; };
+		801BE95F1FDE70DD00B6546C /* NASCropVideoFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASCropVideoFrameViewController.h; sourceTree = "<group>"; };
+		801BE9601FDE70DD00B6546C /* NASCropVideoFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASCropVideoFrameViewController.m; sourceTree = "<group>"; };
+		801BE9611FDE70DD00B6546C /* NASCropVideoFrameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASCropVideoFrameViewController.xib; sourceTree = "<group>"; };
+		801BE9651FDE710700B6546C /* NASCropVideoFrameManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASCropVideoFrameManager.h; sourceTree = "<group>"; };
+		801BE9661FDE710700B6546C /* NASCropVideoFrameManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASCropVideoFrameManager.m; sourceTree = "<group>"; };
+		801BE96B1FDE7EF100B6546C /* NASFileSystemManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASFileSystemManager.h; sourceTree = "<group>"; };
+		801BE96C1FDE7EF100B6546C /* NASFileSystemManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASFileSystemManager.m; sourceTree = "<group>"; };
+		801BE96F1FDE801800B6546C /* NASPhotoFunctionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASPhotoFunctionManager.h; sourceTree = "<group>"; };
+		801BE9701FDE801800B6546C /* NASPhotoFunctionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASPhotoFunctionManager.m; sourceTree = "<group>"; };
+		801BE9781FDE89B700B6546C /* NASDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASDevice.h; sourceTree = "<group>"; };
+		801BE9C21FDEAA2100B6546C /* NASVideoSettingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASVideoSettingModel.h; sourceTree = "<group>"; };
+		801BE9C31FDEAA2100B6546C /* NASVideoSettingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASVideoSettingModel.m; sourceTree = "<group>"; };
+		801BE9C61FDEAB1700B6546C /* NASCropVideoFrameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASCropVideoFrameModel.h; sourceTree = "<group>"; };
+		801BE9C71FDEAB1700B6546C /* NASCropVideoFrameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASCropVideoFrameModel.m; sourceTree = "<group>"; };
+		801CCAEB1FD9085A00468EFF /* NASBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASBaseModel.h; sourceTree = "<group>"; };
+		801CCAEC1FD9085A00468EFF /* NASBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASBaseModel.m; sourceTree = "<group>"; };
+		801CCAF41FD9097700468EFF /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		801CCAF51FD9097700468EFF /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		801CCAF91FD90A5D00468EFF /* NASConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASConstant.h; sourceTree = "<group>"; };
+		801CCB071FD916FC00468EFF /* NASNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASNetworkManager.m; sourceTree = "<group>"; };
+		801CCB081FD916FC00468EFF /* NASNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASNetworkManager.h; sourceTree = "<group>"; };
+		801CCB0A1FD916FC00468EFF /* NASNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASNetworkRequest.h; sourceTree = "<group>"; };
+		801CCB0B1FD916FC00468EFF /* NASNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASNetworkRequest.m; sourceTree = "<group>"; };
+		801CCB1D1FD91CDD00468EFF /* NASWebSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASWebSocketManager.h; sourceTree = "<group>"; };
+		801CCB1E1FD91CDD00468EFF /* NASWebSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASWebSocketManager.m; sourceTree = "<group>"; };
+		801CCB201FD91CE700468EFF /* NASWebSocketRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASWebSocketRequest.h; sourceTree = "<group>"; };
+		801CCB211FD91CE700468EFF /* NASWebSocketRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASWebSocketRequest.m; sourceTree = "<group>"; };
+		801CCB261FD91EE100468EFF /* NASValidateObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASValidateObject.h; sourceTree = "<group>"; };
+		801CCB361FD9234F00468EFF /* CategoryVC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CategoryVC.xcassets; sourceTree = "<group>"; };
+		801CCB4D1FD928FD00468EFF /* NASLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASLocationManager.h; sourceTree = "<group>"; };
+		801CCB4E1FD928FD00468EFF /* NASLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASLocationManager.m; sourceTree = "<group>"; };
+		801CCB951FD9495D00468EFF /* NASLocalizedStringModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASLocalizedStringModel.h; sourceTree = "<group>"; };
+		801CCB961FD9495D00468EFF /* NASLocalizedStringModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASLocalizedStringModel.m; sourceTree = "<group>"; };
+		801CCB9A1FD94BC000468EFF /* NASCategoryLoadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASCategoryLoadManager.h; sourceTree = "<group>"; };
+		801CCB9B1FD94BC000468EFF /* NASCategoryLoadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASCategoryLoadManager.m; sourceTree = "<group>"; };
+		801CCB9F1FD94C4700468EFF /* NASApplicationLoadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASApplicationLoadManager.h; sourceTree = "<group>"; };
+		801CCBA01FD94C4700468EFF /* NASApplicationLoadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASApplicationLoadManager.m; sourceTree = "<group>"; };
+		801CCBA41FD94FB400468EFF /* NASCategoryLoadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASCategoryLoadModel.h; sourceTree = "<group>"; };
+		801CCBA51FD94FB400468EFF /* NASCategoryLoadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASCategoryLoadModel.m; sourceTree = "<group>"; };
+		801CCBA91FD9590900468EFF /* NASApplicationLoadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASApplicationLoadModel.h; sourceTree = "<group>"; };
+		801CCBAA1FD9590900468EFF /* NASApplicationLoadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASApplicationLoadModel.m; sourceTree = "<group>"; };
+		801EC0CE1FD96AF100AE38FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		801EC0CF1FD96AF100AE38FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen_en.storyboard; sourceTree = "<group>"; };
+		801EC0D11FD96AFA00AE38FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		801EC0D31FD96AFF00AE38FB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		80227B6C1FDFC6A9008533F9 /* add_photo@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_photo@1x.png"; sourceTree = "<group>"; };
+		80227B711FDFC6DF008533F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ImagePicker.strings; sourceTree = "<group>"; };
+		80227B731FDFC6E0008533F9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ImagePicker.strings"; sourceTree = "<group>"; };
+		80227B741FDFC6E4008533F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/ImagePicker.strings; sourceTree = "<group>"; };
+		80227B761FDFC960008533F9 /* NASBaseViewControllerCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASBaseViewControllerCoordinator.h; sourceTree = "<group>"; };
+		80227B771FDFC960008533F9 /* NASBaseViewControllerCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASBaseViewControllerCoordinator.m; sourceTree = "<group>"; };
+		80227B7B1FDFCD25008533F9 /* NASImagePickerCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASImagePickerCoordinator.h; sourceTree = "<group>"; };
+		80227B7C1FDFCD25008533F9 /* NASImagePickerCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASImagePickerCoordinator.m; sourceTree = "<group>"; };
+		8031F1931FDA4B9600855F78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8031F1951FDA4B9700855F78 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		8031F1961FDA4B9C00855F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8031F19A1FDA4C0700855F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen_zh.storyboard; sourceTree = "<group>"; };
+		8031F1A41FDA77D200855F78 /* CategoryConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CategoryConfiguration.json; sourceTree = "<group>"; };
+		8031F1A71FDA77E400855F78 /* ApplicationConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ApplicationConfiguration.json; sourceTree = "<group>"; };
+		8031F1AA1FDA77F300855F78 /* CategoryVCConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CategoryVCConfiguration.json; sourceTree = "<group>"; };
+		8031F1AE1FDA781000855F78 /* NASCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASCategoryViewController.h; sourceTree = "<group>"; };
+		8031F1AF1FDA781000855F78 /* NASCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASCategoryViewController.m; sourceTree = "<group>"; };
+		8031F1B31FDA783F00855F78 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Category.strings"; sourceTree = "<group>"; };
+		8031F1B41FDA783F00855F78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Category.strings; sourceTree = "<group>"; };
+		8031F1B91FDA787300855F78 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Application.strings"; sourceTree = "<group>"; };
+		8031F1BA1FDA787300855F78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Application.strings; sourceTree = "<group>"; };
+		8031F1BC1FDA788C00855F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Application.strings; sourceTree = "<group>"; };
+		8031F1BD1FDA78E900855F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Category.strings; sourceTree = "<group>"; };
+		8031F1C01FDA792800855F78 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CategoryVC.strings"; sourceTree = "<group>"; };
+		8031F1C11FDA792800855F78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CategoryVC.strings; sourceTree = "<group>"; };
+		8031F1C31FDA792F00855F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/CategoryVC.strings; sourceTree = "<group>"; };
+		8031F1C71FDA796E00855F78 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/FeaturedVC.strings"; sourceTree = "<group>"; };
+		8031F1C81FDA796E00855F78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/FeaturedVC.strings; sourceTree = "<group>"; };
+		8031F1C91FDA796E00855F78 /* FeaturedVC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FeaturedVC.xcassets; sourceTree = "<group>"; };
+		8031F1CC1FDA796F00855F78 /* NASFeaturedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASFeaturedViewController.m; sourceTree = "<group>"; };
+		8031F1CD1FDA796F00855F78 /* NASFeaturedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASFeaturedViewController.h; sourceTree = "<group>"; };
+		8031F1D11FDA797700855F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/FeaturedVC.strings; sourceTree = "<group>"; };
+		8031F1D41FDA799C00855F78 /* NASMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASMainViewController.h; sourceTree = "<group>"; };
+		8031F1D51FDA799C00855F78 /* NASMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASMainViewController.m; sourceTree = "<group>"; };
+		8031F1D91FDA79CE00855F78 /* NASSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASSearchViewController.h; sourceTree = "<group>"; };
+		8031F1DA1FDA79CE00855F78 /* NASSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASSearchViewController.m; sourceTree = "<group>"; };
+		8031F1DE1FDA79CE00855F78 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SearchVC.strings"; sourceTree = "<group>"; };
+		8031F1DF1FDA79CE00855F78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SearchVC.strings; sourceTree = "<group>"; };
+		8031F1E41FDA79D700855F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/SearchVC.strings; sourceTree = "<group>"; };
+		8031F1E71FDA7A1100855F78 /* NASMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASMineViewController.m; sourceTree = "<group>"; };
+		8031F1E81FDA7A1100855F78 /* NASMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASMineViewController.h; sourceTree = "<group>"; };
+		8031F1EC1FDA7A1100855F78 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MineVC.strings"; sourceTree = "<group>"; };
+		8031F1ED1FDA7A1100855F78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MineVC.strings; sourceTree = "<group>"; };
+		8031F1EE1FDA7A1100855F78 /* MineVC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MineVC.xcassets; sourceTree = "<group>"; };
+		8031F1F21FDA7A7600855F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/MineVC.strings; sourceTree = "<group>"; };
+		8031F1F41FDA7BE900855F78 /* NASCategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASCategoryModel.h; sourceTree = "<group>"; };
+		8031F1F51FDA7BE900855F78 /* NASCategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASCategoryModel.m; sourceTree = "<group>"; };
+		8031F1F81FDA7C5400855F78 /* NASCategoryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASCategoryManager.h; sourceTree = "<group>"; };
+		8031F1F91FDA7C5400855F78 /* NASCategoryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASCategoryManager.m; sourceTree = "<group>"; };
+		8031F2001FDA81F700855F78 /* NASBaseLoadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASBaseLoadManager.h; sourceTree = "<group>"; };
+		8031F2011FDA81F700855F78 /* NASBaseLoadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASBaseLoadManager.m; sourceTree = "<group>"; };
+		8031F2151FDA8D1800855F78 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		8031F2161FDA8D1800855F78 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		8031F2191FDA8D2F00855F78 /* NSArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		8031F21A1FDA8D2F00855F78 /* NSArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		8031F2421FDAA4D900855F78 /* NASCategoryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASCategoryFlowLayout.h; sourceTree = "<group>"; };
+		8031F2431FDAA4D900855F78 /* NASCategoryFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASCategoryFlowLayout.m; sourceTree = "<group>"; };
+		8031F2481FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASCategoryCollectionViewHeaderView.h; sourceTree = "<group>"; };
+		8031F2491FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASCategoryCollectionViewHeaderView.m; sourceTree = "<group>"; };
+		8031F24A1FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASCategoryCollectionViewHeaderView.xib; sourceTree = "<group>"; };
+		80329DBC1FD798EA00CE8374 /* NASBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASBaseViewController.h; sourceTree = "<group>"; };
+		80329DBD1FD798EA00CE8374 /* NASBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASBaseViewController.m; sourceTree = "<group>"; };
+		80401EE51FE766DE0011FA83 /* NASApplicationCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASApplicationCollectionViewCell.h; sourceTree = "<group>"; };
+		80401EE61FE766DE0011FA83 /* NASApplicationCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASApplicationCollectionViewCell.m; sourceTree = "<group>"; };
+		80401EE71FE766DE0011FA83 /* NASApplicationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASApplicationCollectionViewCell.xib; sourceTree = "<group>"; };
+		80401EEB1FE76A7C0011FA83 /* NASFeaturedCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASFeaturedCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		80401EEC1FE76A7C0011FA83 /* NASFeaturedCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASFeaturedCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		80401EF11FE78EE30011FA83 /* FeaturedVCConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FeaturedVCConfiguration.json; sourceTree = "<group>"; };
+		80401EF41FE78F780011FA83 /* NASFeaturedManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASFeaturedManager.h; sourceTree = "<group>"; };
+		80401EF51FE78F780011FA83 /* NASFeaturedManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASFeaturedManager.m; sourceTree = "<group>"; };
+		80401EFC1FE7A4160011FA83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/VideoFunction.strings; sourceTree = "<group>"; };
+		80401EFE1FE7A41A0011FA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/VideoFunction.strings; sourceTree = "<group>"; };
+		80401EFF1FE7A41B0011FA83 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/VideoFunction.strings"; sourceTree = "<group>"; };
+		804032291FE7DAFD00E8C2A1 /* UIView+Subview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Subview.h"; sourceTree = "<group>"; };
+		8040322A1FE7DAFD00E8C2A1 /* UIView+Subview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Subview.m"; sourceTree = "<group>"; };
+		8040322E1FE7E34100E8C2A1 /* AVAsset+Display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAsset+Display.h"; sourceTree = "<group>"; };
+		8040322F1FE7E34100E8C2A1 /* AVAsset+Display.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVAsset+Display.m"; sourceTree = "<group>"; };
+		804097C81FE0C29500F28C14 /* NASImagePickerAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASImagePickerAlbumViewController.h; sourceTree = "<group>"; };
+		804097C91FE0C29500F28C14 /* NASImagePickerAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASImagePickerAlbumViewController.m; sourceTree = "<group>"; };
+		804097CA1FE0C29500F28C14 /* NASImagePickerAlbumViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASImagePickerAlbumViewController.xib; sourceTree = "<group>"; };
+		804097CF1FE0C54C00F28C14 /* NASImagePickerAlbumFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASImagePickerAlbumFlowLayout.h; sourceTree = "<group>"; };
+		804097D01FE0C54C00F28C14 /* NASImagePickerAlbumFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASImagePickerAlbumFlowLayout.m; sourceTree = "<group>"; };
+		804097D21FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASImagePickerAlbumCollectionViewCell.h; sourceTree = "<group>"; };
+		804097D31FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASImagePickerAlbumCollectionViewCell.m; sourceTree = "<group>"; };
+		804097D41FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASImagePickerAlbumCollectionViewCell.xib; sourceTree = "<group>"; };
+		8047552F1FF256CC0046C64D /* add_movie@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_movie@1x.png"; sourceTree = "<group>"; };
+		804755311FF25C400046C64D /* boom@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boom@1x.png"; sourceTree = "<group>"; };
+		8049885E1FE227AB00CD53D4 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		8049885F1FE227AB00CD53D4 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		804988621FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASImagePickerPhotoGirdViewController.h; sourceTree = "<group>"; };
+		804988631FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASImagePickerPhotoGirdViewController.m; sourceTree = "<group>"; };
+		804988641FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASImagePickerPhotoGirdViewController.xib; sourceTree = "<group>"; };
+		8049886A1FE24B2F00CD53D4 /* NASBaseFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASBaseFlowLayout.h; sourceTree = "<group>"; };
+		8049886B1FE24B2F00CD53D4 /* NASBaseFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASBaseFlowLayout.m; sourceTree = "<group>"; };
+		8049886D1FE24C1E00CD53D4 /* NASImagePickerPhotoFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASImagePickerPhotoFlowLayout.h; sourceTree = "<group>"; };
+		8049886E1FE24C1E00CD53D4 /* NASImagePickerPhotoFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASImagePickerPhotoFlowLayout.m; sourceTree = "<group>"; };
+		804988701FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASImagePickerPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		804988711FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASImagePickerPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		804988721FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASImagePickerPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		804988771FE2936300CD53D4 /* NASTimeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASTimeManager.h; sourceTree = "<group>"; };
+		804988781FE2936300CD53D4 /* NASTimeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASTimeManager.m; sourceTree = "<group>"; };
+		804F4C201FE0E66B00995D9A /* NASPhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASPhotoManager.h; sourceTree = "<group>"; };
+		804F4C211FE0E66B00995D9A /* NASPhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASPhotoManager.m; sourceTree = "<group>"; };
+		804F4C251FE0EACD00995D9A /* NASHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASHeader.h; sourceTree = "<group>"; };
+		804F4C331FE0ED5E00995D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Common.strings; sourceTree = "<group>"; };
+		804F4C351FE0ED6000995D9A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Common.strings"; sourceTree = "<group>"; };
+		804F4C361FE0ED6200995D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Common.strings; sourceTree = "<group>"; };
+		804F4C3C1FE0EEBA00995D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Photo.strings; sourceTree = "<group>"; };
+		804F4C3E1FE0EEBB00995D9A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Photo.strings"; sourceTree = "<group>"; };
+		804F4C3F1FE0EEBE00995D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Photo.strings; sourceTree = "<group>"; };
+		804F4C431FE0FBA400995D9A /* NASSystemManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASSystemManager.h; sourceTree = "<group>"; };
+		804F4C441FE0FBA400995D9A /* NASSystemManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASSystemManager.m; sourceTree = "<group>"; };
+		804F4C4C1FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASImagePickerAlbumCollectionViewHeaderView.h; sourceTree = "<group>"; };
+		804F4C4D1FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASImagePickerAlbumCollectionViewHeaderView.m; sourceTree = "<group>"; };
+		804F4C4E1FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASImagePickerAlbumCollectionViewHeaderView.xib; sourceTree = "<group>"; };
+		804F4C521FE120BB00995D9A /* NASOpenSystemSettingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASOpenSystemSettingManager.h; sourceTree = "<group>"; };
+		804F4C531FE120BB00995D9A /* NASOpenSystemSettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASOpenSystemSettingManager.m; sourceTree = "<group>"; };
+		8053A9F91FE1382C00994019 /* NASPhotoConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASPhotoConstant.h; sourceTree = "<group>"; };
+		80553BCB1FDCEC820091717B /* NASImageAndVideoToLiveManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASImageAndVideoToLiveManager.h; sourceTree = "<group>"; };
+		80553BCC1FDCEC820091717B /* NASImageAndVideoToLiveManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASImageAndVideoToLiveManager.m; sourceTree = "<group>"; };
+		8067B1081FF49E6100C37954 /* NASDatabaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASDatabaseManager.h; sourceTree = "<group>"; };
+		8067B1091FF49E6100C37954 /* NASDatabaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASDatabaseManager.m; sourceTree = "<group>"; };
+		8067B1111FF4A7B200C37954 /* NASARDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASARDemoViewController.h; sourceTree = "<group>"; };
+		8067B1121FF4A7B200C37954 /* NASARDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASARDemoViewController.m; sourceTree = "<group>"; };
+		8067B1131FF4A7B200C37954 /* NASARDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASARDemoViewController.xib; sourceTree = "<group>"; };
+		8067B1191FF4C21F00C37954 /* NASDemoStudentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASDemoStudentModel.h; sourceTree = "<group>"; };
+		8067B11A1FF4C21F00C37954 /* NASDemoStudentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASDemoStudentModel.m; sourceTree = "<group>"; };
+		8070535A1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASLongitudeAndLatitudeViewController.h; sourceTree = "<group>"; };
+		8070535B1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASLongitudeAndLatitudeViewController.m; sourceTree = "<group>"; };
+		8070535C1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASLongitudeAndLatitudeViewController.xib; sourceTree = "<group>"; };
+		807053611FEA4CCB002FC6A5 /* NASARCheckManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASARCheckManager.h; sourceTree = "<group>"; };
+		807053621FEA4CCB002FC6A5 /* NASARCheckManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASARCheckManager.m; sourceTree = "<group>"; };
+		8070536A1FEA66FE002FC6A5 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		8074758F1FE3A91300184516 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Location.strings; sourceTree = "<group>"; };
+		807475911FE3A91700184516 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Location.strings"; sourceTree = "<group>"; };
+		807475921FE3A91D00184516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Location.strings; sourceTree = "<group>"; };
+		807475941FE3D87200184516 /* NASVideoResizeAndRotateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASVideoResizeAndRotateViewController.h; sourceTree = "<group>"; };
+		807475951FE3D87200184516 /* NASVideoResizeAndRotateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASVideoResizeAndRotateViewController.m; sourceTree = "<group>"; };
+		8074759B1FE3E12E00184516 /* NASVideoResizeAndRotateCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASVideoResizeAndRotateCoordinator.h; sourceTree = "<group>"; };
+		8074759C1FE3E12E00184516 /* NASVideoResizeAndRotateCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASVideoResizeAndRotateCoordinator.m; sourceTree = "<group>"; };
+		8074759F1FE3EBE300184516 /* NASVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASVideoPlayer.h; sourceTree = "<group>"; };
+		807475A01FE3EBE300184516 /* NASVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASVideoPlayer.m; sourceTree = "<group>"; };
+		8089A9B12043A3DB00FFAEE0 /* NASReverseVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASReverseVideoViewController.h; sourceTree = "<group>"; };
+		8089A9B22043A3DB00FFAEE0 /* NASReverseVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASReverseVideoViewController.m; sourceTree = "<group>"; };
+		8089A9B32043A3DB00FFAEE0 /* NASReverseVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASReverseVideoViewController.xib; sourceTree = "<group>"; };
+		8089A9B82043D6FB00FFAEE0 /* NASReverseVideoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASReverseVideoManager.h; sourceTree = "<group>"; };
+		8089A9B92043D6FB00FFAEE0 /* NASReverseVideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASReverseVideoManager.m; sourceTree = "<group>"; };
+		80AA19CE20592CEB00213B60 /* NASMetalCNNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASMetalCNNViewController.h; sourceTree = "<group>"; };
+		80AA19CF20592CEB00213B60 /* NASMetalCNNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASMetalCNNViewController.m; sourceTree = "<group>"; };
+		80AA19D020592CEB00213B60 /* NASMetalCNNViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASMetalCNNViewController.xib; sourceTree = "<group>"; };
+		80B219691FD55FE8006B4416 /* NanoSparrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoSparrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B2196C1FD55FE8006B4416 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80B2196D1FD55FE8006B4416 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80B219761FD55FE8006B4416 /* NanoSparrow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NanoSparrow.xcdatamodel; sourceTree = "<group>"; };
+		80B219781FD55FE8006B4416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80B2197D1FD55FE8006B4416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B2197E1FD55FE8006B4416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80CF4E111FFDDF110007FB15 /* NASDatabaseDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASDatabaseDemoViewController.h; sourceTree = "<group>"; };
+		80CF4E121FFDDF110007FB15 /* NASDatabaseDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASDatabaseDemoViewController.m; sourceTree = "<group>"; };
+		80CF4E131FFDDF110007FB15 /* NASDatabaseDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASDatabaseDemoViewController.xib; sourceTree = "<group>"; };
+		80CF4E211FFDE2390007FB15 /* NASDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASDemoViewController.h; sourceTree = "<group>"; };
+		80CF4E221FFDE2390007FB15 /* NASDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASDemoViewController.m; sourceTree = "<group>"; };
+		80CF4E231FFDE2390007FB15 /* NASDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NASDemoViewController.xib; sourceTree = "<group>"; };
+		80DB55B8201B0B9C00396A15 /* NanoSparrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoSparrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DB55BA201B0B9C00396A15 /* NanoSparrowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NanoSparrowUITests.m; sourceTree = "<group>"; };
+		80DB55BC201B0B9C00396A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DB55C6201B0BAB00396A15 /* NanoSparrowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoSparrowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DB55C8201B0BAB00396A15 /* NanoSparrowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NanoSparrowTests.m; sourceTree = "<group>"; };
+		80DB55CA201B0BAB00396A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA9A893741F5D8486F1AD02 /* libPods-NanoSparrow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NanoSparrow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80B219661FD55FE8006B4416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6CB91D071048E2A7BB0C55 /* libPods-NanoSparrow.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB55B5201B0B9C00396A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB55C3201B0BAB00396A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		376A21792099AA760098DAB0 /* NASWifi */ = {
+			isa = PBXGroup;
+			children = (
+				376A217A2099AAAA0098DAB0 /* NASWifiManager */,
+			);
+			path = NASWifi;
+			sourceTree = "<group>";
+		};
+		376A217A2099AAAA0098DAB0 /* NASWifiManager */ = {
+			isa = PBXGroup;
+			children = (
+				376A217B2099AAC00098DAB0 /* NASWifiManager.h */,
+				376A217C2099AAC00098DAB0 /* NASWifiManager.m */,
+			);
+			path = NASWifiManager;
+			sourceTree = "<group>";
+		};
+		5AE6550F5BD1158FBA480FEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD7EB2FE199674D380ED5D /* Pods-NanoSparrow.debug.xcconfig */,
+				1D4AAE9249A1BF62869A7FBC /* Pods-NanoSparrow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		801BA485204546870061BEE5 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				801BA487204546DE0061BEE5 /* Manager */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		801BA486204546B00061BEE5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				801BA48820454B3A0061BEE5 /* NASWeatherReportViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		801BA487204546DE0061BEE5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				801BA48F20454D7A0061BEE5 /* NASWeatherReportManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		801BA48820454B3A0061BEE5 /* NASWeatherReportViewController */ = {
+			isa = PBXGroup;
+			children = (
+				801BA48920454B5B0061BEE5 /* NASWeatherReportViewController.h */,
+				801BA48A20454B5B0061BEE5 /* NASWeatherReportViewController.m */,
+				801BA48B20454B5B0061BEE5 /* NASWeatherReportViewController.xib */,
+			);
+			path = NASWeatherReportViewController;
+			sourceTree = "<group>";
+		};
+		801BA48E20454CC10061BEE5 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				801BA486204546B00061BEE5 /* ViewController */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		801BA48F20454D7A0061BEE5 /* NASWeatherReportManager */ = {
+			isa = PBXGroup;
+			children = (
+				801BA49020454D930061BEE5 /* NASWeatherReportManager.h */,
+				801BA49120454D930061BEE5 /* NASWeatherReportManager.m */,
+			);
+			path = NASWeatherReportManager;
+			sourceTree = "<group>";
+		};
+		801BA493204558BC0061BEE5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				801BA494204558CB0061BEE5 /* Resource */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		801BA494204558CB0061BEE5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				801BA495204558EC0061BEE5 /* SourceHanSerif.ttc */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		801BE94E1FDE64C200B6546C /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				801BE94F1FDE64C200B6546C /* UIWindow+FLEX */,
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		801BE94F1FDE64C200B6546C /* UIWindow+FLEX */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9501FDE64FB00B6546C /* UIWindow+FLEX.h */,
+				801BE9511FDE64FB00B6546C /* UIWindow+FLEX.m */,
+			);
+			path = "UIWindow+FLEX";
+			sourceTree = "<group>";
+		};
+		801BE9551FDE6EED00B6546C /* NASImageAndVideoToLiveViewController */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9561FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.h */,
+				801BE9571FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.m */,
+				801BE9581FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.xib */,
+			);
+			path = NASImageAndVideoToLiveViewController;
+			sourceTree = "<group>";
+		};
+		801BE95B1FDE709700B6546C /* CropVideoFrame */ = {
+			isa = PBXGroup;
+			children = (
+				807475991FE3DE5000184516 /* Coordinator */,
+				801BE95D1FDE70B300B6546C /* ViewController */,
+				801BE9BF1FDEA92900B6546C /* Model */,
+				801BE95C1FDE70B300B6546C /* Manager */,
+			);
+			path = CropVideoFrame;
+			sourceTree = "<group>";
+		};
+		801BE95C1FDE70B300B6546C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9641FDE70FA00B6546C /* NASCropVideoFrameManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		801BE95D1FDE70B300B6546C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				807475931FE3D82E00184516 /* NASVideoResizeAndRotateViewController */,
+				801BE95E1FDE70D100B6546C /* NASCropVideoFrameViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		801BE95E1FDE70D100B6546C /* NASCropVideoFrameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				801BE95F1FDE70DD00B6546C /* NASCropVideoFrameViewController.h */,
+				801BE9601FDE70DD00B6546C /* NASCropVideoFrameViewController.m */,
+				801BE9611FDE70DD00B6546C /* NASCropVideoFrameViewController.xib */,
+			);
+			path = NASCropVideoFrameViewController;
+			sourceTree = "<group>";
+		};
+		801BE9641FDE70FA00B6546C /* NASCropVideoFrameManager */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9651FDE710700B6546C /* NASCropVideoFrameManager.h */,
+				801BE9661FDE710700B6546C /* NASCropVideoFrameManager.m */,
+			);
+			path = NASCropVideoFrameManager;
+			sourceTree = "<group>";
+		};
+		801BE9681FDE7E5600B6546C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				801BE96E1FDE800B00B6546C /* NASPhotoFunctionManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		801BE9691FDE7ECD00B6546C /* FileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				801BE96A1FDE7EE600B6546C /* NASFileSystemManager */,
+			);
+			path = FileSystem;
+			sourceTree = "<group>";
+		};
+		801BE96A1FDE7EE600B6546C /* NASFileSystemManager */ = {
+			isa = PBXGroup;
+			children = (
+				801BE96B1FDE7EF100B6546C /* NASFileSystemManager.h */,
+				801BE96C1FDE7EF100B6546C /* NASFileSystemManager.m */,
+			);
+			path = NASFileSystemManager;
+			sourceTree = "<group>";
+		};
+		801BE96E1FDE800B00B6546C /* NASPhotoFunctionManager */ = {
+			isa = PBXGroup;
+			children = (
+				801BE96F1FDE801800B6546C /* NASPhotoFunctionManager.h */,
+				801BE9701FDE801800B6546C /* NASPhotoFunctionManager.m */,
+			);
+			path = NASPhotoFunctionManager;
+			sourceTree = "<group>";
+		};
+		801BE9721FDE88C400B6546C /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9731FDE88E300B6546C /* NASDevice */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		801BE9731FDE88E300B6546C /* NASDevice */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9781FDE89B700B6546C /* NASDevice.h */,
+			);
+			path = NASDevice;
+			sourceTree = "<group>";
+		};
+		801BE9BF1FDEA92900B6546C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9C51FDEAAFC00B6546C /* NASCropVideoFrameModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		801BE9C01FDEA9D200B6546C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8074759E1FE3EBC800184516 /* NASVideoPlayer */,
+				801BE9C11FDEAA1600B6546C /* NASVideoSettingModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		801BE9C11FDEAA1600B6546C /* NASVideoSettingModel */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9C21FDEAA2100B6546C /* NASVideoSettingModel.h */,
+				801BE9C31FDEAA2100B6546C /* NASVideoSettingModel.m */,
+			);
+			path = NASVideoSettingModel;
+			sourceTree = "<group>";
+		};
+		801BE9C51FDEAAFC00B6546C /* NASCropVideoFrameModel */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9C61FDEAB1700B6546C /* NASCropVideoFrameModel.h */,
+				801BE9C71FDEAB1700B6546C /* NASCropVideoFrameModel.m */,
+			);
+			path = NASCropVideoFrameModel;
+			sourceTree = "<group>";
+		};
+		801CCAEA1FD9083C00468EFF /* NASBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				801CCAEB1FD9085A00468EFF /* NASBaseModel.h */,
+				801CCAEC1FD9085A00468EFF /* NASBaseModel.m */,
+			);
+			path = NASBaseModel;
+			sourceTree = "<group>";
+		};
+		801CCAEE1FD9092300468EFF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8040322C1FE7E2A400E8C2A1 /* AVAsset */,
+				8031F2131FDA8D1800855F78 /* NSArray */,
+				8049885C1FE2277200CD53D4 /* NSDictionary */,
+				801CCAEF1FD9093C00468EFF /* UIColor */,
+				804032271FE7DADD00E8C2A1 /* UIView */,
+				801BE94E1FDE64C200B6546C /* UIWindow */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		801CCAEF1FD9093C00468EFF /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				801CCAF31FD9097700468EFF /* UIColor+Hex */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		801CCAF31FD9097700468EFF /* UIColor+Hex */ = {
+			isa = PBXGroup;
+			children = (
+				801CCAF51FD9097700468EFF /* UIColor+Hex.h */,
+				801CCAF41FD9097700468EFF /* UIColor+Hex.m */,
+			);
+			path = "UIColor+Hex";
+			sourceTree = "<group>";
+		};
+		801CCAF71FD90A3900468EFF /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				801CCAF81FD90A5100468EFF /* NASConstant */,
+				804F4C261FE0EAF000995D9A /* NASStrings */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		801CCAF81FD90A5100468EFF /* NASConstant */ = {
+			isa = PBXGroup;
+			children = (
+				801CCAF91FD90A5D00468EFF /* NASConstant.h */,
+			);
+			path = NASConstant;
+			sourceTree = "<group>";
+		};
+		801CCAFB1FD90C9A00468EFF /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				804988751FE2934000CD53D4 /* Time */,
+				804F4C401FE0FB5F00995D9A /* System */,
+				801BE9721FDE88C400B6546C /* Device */,
+				801BE9691FDE7ECD00B6546C /* FileSystem */,
+				801BA493204558BC0061BEE5 /* Font */,
+				801CCB231FD91E6900468EFF /* ValidateObject */,
+				801CCAFC1FD90CF800468EFF /* Network */,
+				801CCB4B1FD928A100468EFF /* Location */,
+				80227B5B1FDFBE9B008533F9 /* Photo */,
+				801BA485204546870061BEE5 /* Weather */,
+				8067B1041FF49CF800C37954 /* Database */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		801CCAFC1FD90CF800468EFF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				376A21792099AA760098DAB0 /* NASWifi */,
+				801CCB051FD916FC00468EFF /* NASNetwork */,
+				801CCB1A1FD91CC900468EFF /* NASWebSocket */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		801CCB051FD916FC00468EFF /* NASNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB061FD916FC00468EFF /* NASNetworkManager */,
+				801CCB091FD916FC00468EFF /* NASNetworkRequest */,
+			);
+			path = NASNetwork;
+			sourceTree = "<group>";
+		};
+		801CCB061FD916FC00468EFF /* NASNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB081FD916FC00468EFF /* NASNetworkManager.h */,
+				801CCB071FD916FC00468EFF /* NASNetworkManager.m */,
+			);
+			path = NASNetworkManager;
+			sourceTree = "<group>";
+		};
+		801CCB091FD916FC00468EFF /* NASNetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB0A1FD916FC00468EFF /* NASNetworkRequest.h */,
+				801CCB0B1FD916FC00468EFF /* NASNetworkRequest.m */,
+			);
+			path = NASNetworkRequest;
+			sourceTree = "<group>";
+		};
+		801CCB1A1FD91CC900468EFF /* NASWebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB1B1FD91CC900468EFF /* NASWebSocketManager */,
+				801CCB1C1FD91CC900468EFF /* NASWebSocketRequest */,
+			);
+			path = NASWebSocket;
+			sourceTree = "<group>";
+		};
+		801CCB1B1FD91CC900468EFF /* NASWebSocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB1D1FD91CDD00468EFF /* NASWebSocketManager.h */,
+				801CCB1E1FD91CDD00468EFF /* NASWebSocketManager.m */,
+			);
+			path = NASWebSocketManager;
+			sourceTree = "<group>";
+		};
+		801CCB1C1FD91CC900468EFF /* NASWebSocketRequest */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB201FD91CE700468EFF /* NASWebSocketRequest.h */,
+				801CCB211FD91CE700468EFF /* NASWebSocketRequest.m */,
+			);
+			path = NASWebSocketRequest;
+			sourceTree = "<group>";
+		};
+		801CCB231FD91E6900468EFF /* ValidateObject */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB241FD91E8F00468EFF /* NASValidateObject */,
+			);
+			path = ValidateObject;
+			sourceTree = "<group>";
+		};
+		801CCB241FD91E8F00468EFF /* NASValidateObject */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB261FD91EE100468EFF /* NASValidateObject.h */,
+			);
+			path = NASValidateObject;
+			sourceTree = "<group>";
+		};
+		801CCB351FD9233D00468EFF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB361FD9234F00468EFF /* CategoryVC.xcassets */,
+				8031F1BE1FDA792800855F78 /* Strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		801CCB4B1FD928A100468EFF /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				807475891FE3A20700184516 /* Manager */,
+				8074758A1FE3A8AD00184516 /* Resource */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		801CCB4C1FD928EA00468EFF /* NASLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB4D1FD928FD00468EFF /* NASLocationManager.h */,
+				801CCB4E1FD928FD00468EFF /* NASLocationManager.m */,
+			);
+			path = NASLocationManager;
+			sourceTree = "<group>";
+		};
+		801CCB501FD92F0900468EFF /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB901FD9471900468EFF /* Model */,
+				801CCB6D1FD93F3000468EFF /* Application */,
+				801CCB601FD93B9000468EFF /* Category */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		801CCB601FD93B9000468EFF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB981FD94B5800468EFF /* Manager */,
+				801CCBA21FD94F4D00468EFF /* Model */,
+				8031F1A31FDA77D200855F78 /* Configuration */,
+				8031F1B11FDA783F00855F78 /* Resource */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		801CCB6D1FD93F3000468EFF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB9D1FD94C1400468EFF /* Manager */,
+				801CCBA71FD958E900468EFF /* Model */,
+				8031F1A61FDA77E400855F78 /* Configuration */,
+				8031F1B61FDA787300855F78 /* Resource */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		801CCB901FD9471900468EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB911FD948BF00468EFF /* NASLocalizedStringModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		801CCB911FD948BF00468EFF /* NASLocalizedStringModel */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB951FD9495D00468EFF /* NASLocalizedStringModel.h */,
+				801CCB961FD9495D00468EFF /* NASLocalizedStringModel.m */,
+			);
+			path = NASLocalizedStringModel;
+			sourceTree = "<group>";
+		};
+		801CCB981FD94B5800468EFF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB991FD94BAC00468EFF /* NASCategoryLoadManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		801CCB991FD94BAC00468EFF /* NASCategoryLoadManager */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB9A1FD94BC000468EFF /* NASCategoryLoadManager.h */,
+				801CCB9B1FD94BC000468EFF /* NASCategoryLoadManager.m */,
+			);
+			path = NASCategoryLoadManager;
+			sourceTree = "<group>";
+		};
+		801CCB9D1FD94C1400468EFF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB9E1FD94C3100468EFF /* NASApplicationLoadManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		801CCB9E1FD94C3100468EFF /* NASApplicationLoadManager */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB9F1FD94C4700468EFF /* NASApplicationLoadManager.h */,
+				801CCBA01FD94C4700468EFF /* NASApplicationLoadManager.m */,
+			);
+			path = NASApplicationLoadManager;
+			sourceTree = "<group>";
+		};
+		801CCBA21FD94F4D00468EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				801CCBA31FD94F4D00468EFF /* NASCategoryLoadModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		801CCBA31FD94F4D00468EFF /* NASCategoryLoadModel */ = {
+			isa = PBXGroup;
+			children = (
+				801CCBA41FD94FB400468EFF /* NASCategoryLoadModel.h */,
+				801CCBA51FD94FB400468EFF /* NASCategoryLoadModel.m */,
+			);
+			path = NASCategoryLoadModel;
+			sourceTree = "<group>";
+		};
+		801CCBA71FD958E900468EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				801CCBA81FD958E900468EFF /* NASApplicationLoadModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		801CCBA81FD958E900468EFF /* NASApplicationLoadModel */ = {
+			isa = PBXGroup;
+			children = (
+				801CCBA91FD9590900468EFF /* NASApplicationLoadModel.h */,
+				801CCBAA1FD9590900468EFF /* NASApplicationLoadModel.m */,
+			);
+			path = NASApplicationLoadModel;
+			sourceTree = "<group>";
+		};
+		80227B5B1FDFBE9B008533F9 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				8053A9F71FE1381E00994019 /* Constant */,
+				804F4C1E1FE0E64000995D9A /* Manager */,
+				80227B5C1FDFBE9B008533F9 /* ImagePicker */,
+				804F4C371FE0EE7800995D9A /* Resource */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		80227B5C1FDFBE9B008533F9 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				80227B791FDFCCCB008533F9 /* Coordinator */,
+				80227B5D1FDFC0E7008533F9 /* ViewController */,
+				804097B71FE0BF8D00F28C14 /* View */,
+				80227B6A1FDFC659008533F9 /* Resource */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		80227B5D1FDFC0E7008533F9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				804988611FE24A0400CD53D4 /* NASImagePickerPhotoGirdViewController */,
+				804097B81FE0BFF500F28C14 /* NASImagePickerAlbumViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		80227B6A1FDFC659008533F9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				80227B721FDFC6DF008533F9 /* ImagePicker.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		80227B751FDFC94B008533F9 /* NASBaseViewControllerCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				80227B761FDFC960008533F9 /* NASBaseViewControllerCoordinator.h */,
+				80227B771FDFC960008533F9 /* NASBaseViewControllerCoordinator.m */,
+			);
+			path = NASBaseViewControllerCoordinator;
+			sourceTree = "<group>";
+		};
+		80227B791FDFCCCB008533F9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				80227B7A1FDFCD10008533F9 /* NASImagePickerCoordinator */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		80227B7A1FDFCD10008533F9 /* NASImagePickerCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				80227B7B1FDFCD25008533F9 /* NASImagePickerCoordinator.h */,
+				80227B7C1FDFCD25008533F9 /* NASImagePickerCoordinator.m */,
+			);
+			path = NASImagePickerCoordinator;
+			sourceTree = "<group>";
+		};
+		8031F19F1FDA767B00855F78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1F31FDA7BDC00855F78 /* NASCategoryModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8031F1A01FDA767B00855F78 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1F71FDA7C1900855F78 /* NASCategoryManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8031F1A31FDA77D200855F78 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1A41FDA77D200855F78 /* CategoryConfiguration.json */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		8031F1A61FDA77E400855F78 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1A71FDA77E400855F78 /* ApplicationConfiguration.json */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		8031F1A91FDA77F300855F78 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1AA1FDA77F300855F78 /* CategoryVCConfiguration.json */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		8031F1AC1FDA781000855F78 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1AD1FDA781000855F78 /* NASCategoryViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8031F1AD1FDA781000855F78 /* NASCategoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1AE1FDA781000855F78 /* NASCategoryViewController.h */,
+				8031F1AF1FDA781000855F78 /* NASCategoryViewController.m */,
+			);
+			path = NASCategoryViewController;
+			sourceTree = "<group>";
+		};
+		8031F1B11FDA783F00855F78 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1B21FDA783F00855F78 /* Category.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8031F1B61FDA787300855F78 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9531FDE67E500B6546C /* Application.xcassets */,
+				8031F1B71FDA787300855F78 /* Strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8031F1B71FDA787300855F78 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1B81FDA787300855F78 /* Application.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		8031F1BE1FDA792800855F78 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1BF1FDA792800855F78 /* CategoryVC.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		8031F1C41FDA796E00855F78 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1C51FDA796E00855F78 /* Strings */,
+				8031F1C91FDA796E00855F78 /* FeaturedVC.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8031F1C51FDA796E00855F78 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1C61FDA796E00855F78 /* FeaturedVC.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		8031F1CA1FDA796F00855F78 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1CB1FDA796F00855F78 /* NASFeaturedViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8031F1CB1FDA796F00855F78 /* NASFeaturedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1CD1FDA796F00855F78 /* NASFeaturedViewController.h */,
+				8031F1CC1FDA796F00855F78 /* NASFeaturedViewController.m */,
+			);
+			path = NASFeaturedViewController;
+			sourceTree = "<group>";
+		};
+		8031F1D21FDA799C00855F78 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1D31FDA799C00855F78 /* NASMainViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8031F1D31FDA799C00855F78 /* NASMainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1D41FDA799C00855F78 /* NASMainViewController.h */,
+				8031F1D51FDA799C00855F78 /* NASMainViewController.m */,
+			);
+			path = NASMainViewController;
+			sourceTree = "<group>";
+		};
+		8031F1D71FDA79CE00855F78 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1D81FDA79CE00855F78 /* NASSearchViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8031F1D81FDA79CE00855F78 /* NASSearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1D91FDA79CE00855F78 /* NASSearchViewController.h */,
+				8031F1DA1FDA79CE00855F78 /* NASSearchViewController.m */,
+			);
+			path = NASSearchViewController;
+			sourceTree = "<group>";
+		};
+		8031F1DB1FDA79CE00855F78 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1DC1FDA79CE00855F78 /* Strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8031F1DC1FDA79CE00855F78 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1DD1FDA79CE00855F78 /* SearchVC.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		8031F1E51FDA7A1100855F78 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1E61FDA7A1100855F78 /* NASMineViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8031F1E61FDA7A1100855F78 /* NASMineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1E71FDA7A1100855F78 /* NASMineViewController.m */,
+				8031F1E81FDA7A1100855F78 /* NASMineViewController.h */,
+			);
+			path = NASMineViewController;
+			sourceTree = "<group>";
+		};
+		8031F1E91FDA7A1100855F78 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1EE1FDA7A1100855F78 /* MineVC.xcassets */,
+				8031F1EA1FDA7A1100855F78 /* Strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8031F1EA1FDA7A1100855F78 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1EB1FDA7A1100855F78 /* MineVC.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		8031F1F31FDA7BDC00855F78 /* NASCategoryModel */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1F41FDA7BE900855F78 /* NASCategoryModel.h */,
+				8031F1F51FDA7BE900855F78 /* NASCategoryModel.m */,
+			);
+			path = NASCategoryModel;
+			sourceTree = "<group>";
+		};
+		8031F1F71FDA7C1900855F78 /* NASCategoryManager */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1F81FDA7C5400855F78 /* NASCategoryManager.h */,
+				8031F1F91FDA7C5400855F78 /* NASCategoryManager.m */,
+			);
+			path = NASCategoryManager;
+			sourceTree = "<group>";
+		};
+		8031F1FF1FDA81E700855F78 /* NASBaseLoadManager */ = {
+			isa = PBXGroup;
+			children = (
+				8031F2001FDA81F700855F78 /* NASBaseLoadManager.h */,
+				8031F2011FDA81F700855F78 /* NASBaseLoadManager.m */,
+			);
+			path = NASBaseLoadManager;
+			sourceTree = "<group>";
+		};
+		8031F2131FDA8D1800855F78 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				8031F2171FDA8D1800855F78 /* NSArray+Safe */,
+				8031F2141FDA8D1800855F78 /* NSMutableArray+Safe */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		8031F2141FDA8D1800855F78 /* NSMutableArray+Safe */ = {
+			isa = PBXGroup;
+			children = (
+				8031F2161FDA8D1800855F78 /* NSMutableArray+Safe.h */,
+				8031F2151FDA8D1800855F78 /* NSMutableArray+Safe.m */,
+			);
+			path = "NSMutableArray+Safe";
+			sourceTree = "<group>";
+		};
+		8031F2171FDA8D1800855F78 /* NSArray+Safe */ = {
+			isa = PBXGroup;
+			children = (
+				8031F2191FDA8D2F00855F78 /* NSArray+Safe.h */,
+				8031F21A1FDA8D2F00855F78 /* NSArray+Safe.m */,
+			);
+			path = "NSArray+Safe";
+			sourceTree = "<group>";
+		};
+		8031F21D1FDAA20400855F78 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				80CF4E1E1FFDE16F0007FB15 /* Demo */,
+				807053471FEA245A002FC6A5 /* AugmentedReality */,
+				801BA48E20454CC10061BEE5 /* Weather */,
+				8067B1021FF49A9300C37954 /* Database */,
+				807475811FE390EF00184516 /* Location */,
+				80AA19C620592C5D00213B60 /* MachineLearning */,
+				80553BC41FDCE9DA0091717B /* PhotographyAndVideo */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8031F23C1FDAA4D900855F78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8031F2411FDAA4D900855F78 /* NASCategoryFlowLayout */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8031F2411FDAA4D900855F78 /* NASCategoryFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8031F2421FDAA4D900855F78 /* NASCategoryFlowLayout.h */,
+				8031F2431FDAA4D900855F78 /* NASCategoryFlowLayout.m */,
+			);
+			path = NASCategoryFlowLayout;
+			sourceTree = "<group>";
+		};
+		8031F2471FDAA51300855F78 /* NASCategoryCollectionViewHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				8031F2481FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.h */,
+				8031F2491FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.m */,
+				8031F24A1FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.xib */,
+			);
+			path = NASCategoryCollectionViewHeaderView;
+			sourceTree = "<group>";
+		};
+		80329DBA1FD7989D00CE8374 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				801CCAEA1FD9083C00468EFF /* NASBaseModel */,
+				804988691FE24B1200CD53D4 /* NASBaseFlowLayout */,
+				8031F1FF1FDA81E700855F78 /* NASBaseLoadManager */,
+				80329DBB1FD798CF00CE8374 /* NASBaseViewController */,
+				80227B751FDFC94B008533F9 /* NASBaseViewControllerCoordinator */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		80329DBB1FD798CF00CE8374 /* NASBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				80329DBC1FD798EA00CE8374 /* NASBaseViewController.h */,
+				80329DBD1FD798EA00CE8374 /* NASBaseViewController.m */,
+			);
+			path = NASBaseViewController;
+			sourceTree = "<group>";
+		};
+		80401EE31FE7664E0011FA83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80401EE41FE766B90011FA83 /* NASApplicationCollectionViewCell */,
+				8031F2471FDAA51300855F78 /* NASCategoryCollectionViewHeaderView */,
+				80401EEA1FE76A540011FA83 /* NASFeaturedCollectionViewFlowLayout */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80401EE41FE766B90011FA83 /* NASApplicationCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				80401EE51FE766DE0011FA83 /* NASApplicationCollectionViewCell.h */,
+				80401EE61FE766DE0011FA83 /* NASApplicationCollectionViewCell.m */,
+				80401EE71FE766DE0011FA83 /* NASApplicationCollectionViewCell.xib */,
+			);
+			path = NASApplicationCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		80401EEA1FE76A540011FA83 /* NASFeaturedCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				80401EEB1FE76A7C0011FA83 /* NASFeaturedCollectionViewFlowLayout.h */,
+				80401EEC1FE76A7C0011FA83 /* NASFeaturedCollectionViewFlowLayout.m */,
+			);
+			path = NASFeaturedCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+		80401EEF1FE78DDF0011FA83 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				80401EF31FE78EF20011FA83 /* NASFeaturedManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		80401EF01FE78E140011FA83 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				80401EF11FE78EE30011FA83 /* FeaturedVCConfiguration.json */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		80401EF31FE78EF20011FA83 /* NASFeaturedManager */ = {
+			isa = PBXGroup;
+			children = (
+				80401EF41FE78F780011FA83 /* NASFeaturedManager.h */,
+				80401EF51FE78F780011FA83 /* NASFeaturedManager.m */,
+			);
+			path = NASFeaturedManager;
+			sourceTree = "<group>";
+		};
+		80401EF81FE7A3CC0011FA83 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				80401EFD1FE7A4160011FA83 /* VideoFunction.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		804032271FE7DADD00E8C2A1 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				804032281FE7DAE500E8C2A1 /* UIView+Subview */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		804032281FE7DAE500E8C2A1 /* UIView+Subview */ = {
+			isa = PBXGroup;
+			children = (
+				804032291FE7DAFD00E8C2A1 /* UIView+Subview.h */,
+				8040322A1FE7DAFD00E8C2A1 /* UIView+Subview.m */,
+			);
+			path = "UIView+Subview";
+			sourceTree = "<group>";
+		};
+		8040322C1FE7E2A400E8C2A1 /* AVAsset */ = {
+			isa = PBXGroup;
+			children = (
+				8040322D1FE7E31100E8C2A1 /* AVAsset+Display */,
+			);
+			path = AVAsset;
+			sourceTree = "<group>";
+		};
+		8040322D1FE7E31100E8C2A1 /* AVAsset+Display */ = {
+			isa = PBXGroup;
+			children = (
+				8040322E1FE7E34100E8C2A1 /* AVAsset+Display.h */,
+				8040322F1FE7E34100E8C2A1 /* AVAsset+Display.m */,
+			);
+			path = "AVAsset+Display";
+			sourceTree = "<group>";
+		};
+		804097B71FE0BF8D00F28C14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				804097CE1FE0C54C00F28C14 /* NASImagePickerAlbumFlowLayout */,
+				804097CD1FE0C54600F28C14 /* NASImagePickerAlbumCollectionViewCell */,
+				804F4C461FE10B9100995D9A /* NASImagePickerAlbumCollectionViewHeaderView */,
+				804988681FE24AD500CD53D4 /* NASImagePickerPhotoFlowLayout */,
+				804988671FE24AD500CD53D4 /* NASImagePickerPhotoCollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		804097B81FE0BFF500F28C14 /* NASImagePickerAlbumViewController */ = {
+			isa = PBXGroup;
+			children = (
+				804097C81FE0C29500F28C14 /* NASImagePickerAlbumViewController.h */,
+				804097C91FE0C29500F28C14 /* NASImagePickerAlbumViewController.m */,
+				804097CA1FE0C29500F28C14 /* NASImagePickerAlbumViewController.xib */,
+			);
+			path = NASImagePickerAlbumViewController;
+			sourceTree = "<group>";
+		};
+		804097CD1FE0C54600F28C14 /* NASImagePickerAlbumCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				804097D21FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.h */,
+				804097D31FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.m */,
+				804097D41FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.xib */,
+			);
+			path = NASImagePickerAlbumCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		804097CE1FE0C54C00F28C14 /* NASImagePickerAlbumFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				804097CF1FE0C54C00F28C14 /* NASImagePickerAlbumFlowLayout.h */,
+				804097D01FE0C54C00F28C14 /* NASImagePickerAlbumFlowLayout.m */,
+			);
+			path = NASImagePickerAlbumFlowLayout;
+			sourceTree = "<group>";
+		};
+		8042068F1FF345670010FA52 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				80401EF81FE7A3CC0011FA83 /* Strings */,
+				8047552E1FF2553D0046C64D /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8047552E1FF2553D0046C64D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				80227B6C1FDFC6A9008533F9 /* add_photo@1x.png */,
+				8047552F1FF256CC0046C64D /* add_movie@1x.png */,
+				804755311FF25C400046C64D /* boom@1x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		8049885C1FE2277200CD53D4 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				8049885D1FE2279800CD53D4 /* NSMutableDictionary+Safe */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		8049885D1FE2279800CD53D4 /* NSMutableDictionary+Safe */ = {
+			isa = PBXGroup;
+			children = (
+				8049885E1FE227AB00CD53D4 /* NSMutableDictionary+Safe.h */,
+				8049885F1FE227AB00CD53D4 /* NSMutableDictionary+Safe.m */,
+			);
+			path = "NSMutableDictionary+Safe";
+			sourceTree = "<group>";
+		};
+		804988611FE24A0400CD53D4 /* NASImagePickerPhotoGirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				804988621FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.h */,
+				804988631FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.m */,
+				804988641FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.xib */,
+			);
+			path = NASImagePickerPhotoGirdViewController;
+			sourceTree = "<group>";
+		};
+		804988671FE24AD500CD53D4 /* NASImagePickerPhotoCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				804988701FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.h */,
+				804988711FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.m */,
+				804988721FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.xib */,
+			);
+			path = NASImagePickerPhotoCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		804988681FE24AD500CD53D4 /* NASImagePickerPhotoFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8049886D1FE24C1E00CD53D4 /* NASImagePickerPhotoFlowLayout.h */,
+				8049886E1FE24C1E00CD53D4 /* NASImagePickerPhotoFlowLayout.m */,
+			);
+			path = NASImagePickerPhotoFlowLayout;
+			sourceTree = "<group>";
+		};
+		804988691FE24B1200CD53D4 /* NASBaseFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8049886A1FE24B2F00CD53D4 /* NASBaseFlowLayout.h */,
+				8049886B1FE24B2F00CD53D4 /* NASBaseFlowLayout.m */,
+			);
+			path = NASBaseFlowLayout;
+			sourceTree = "<group>";
+		};
+		804988751FE2934000CD53D4 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				804988761FE2935400CD53D4 /* NASTimeManager */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		804988761FE2935400CD53D4 /* NASTimeManager */ = {
+			isa = PBXGroup;
+			children = (
+				804988771FE2936300CD53D4 /* NASTimeManager.h */,
+				804988781FE2936300CD53D4 /* NASTimeManager.m */,
+			);
+			path = NASTimeManager;
+			sourceTree = "<group>";
+		};
+		804F4C1E1FE0E64000995D9A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C1F1FE0E65400995D9A /* NASPhotoManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		804F4C1F1FE0E65400995D9A /* NASPhotoManager */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C201FE0E66B00995D9A /* NASPhotoManager.h */,
+				804F4C211FE0E66B00995D9A /* NASPhotoManager.m */,
+			);
+			path = NASPhotoManager;
+			sourceTree = "<group>";
+		};
+		804F4C231FE0EA9500995D9A /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C241FE0EA9500995D9A /* NASHeader */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		804F4C241FE0EA9500995D9A /* NASHeader */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C251FE0EACD00995D9A /* NASHeader.h */,
+			);
+			path = NASHeader;
+			sourceTree = "<group>";
+		};
+		804F4C261FE0EAF000995D9A /* NASStrings */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C2F1FE0ED4800995D9A /* Common */,
+			);
+			path = NASStrings;
+			sourceTree = "<group>";
+		};
+		804F4C2F1FE0ED4800995D9A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C341FE0ED5E00995D9A /* Common.strings */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		804F4C371FE0EE7800995D9A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C381FE0EE7800995D9A /* Strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		804F4C381FE0EE7800995D9A /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C3D1FE0EEBA00995D9A /* Photo.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		804F4C401FE0FB5F00995D9A /* System */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C411FE0FB5F00995D9A /* Manager */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		804F4C411FE0FB5F00995D9A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C421FE0FB7800995D9A /* NASSystemManager */,
+				804F4C511FE1208200995D9A /* NASOpenSystemSettingManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		804F4C421FE0FB7800995D9A /* NASSystemManager */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C431FE0FBA400995D9A /* NASSystemManager.h */,
+				804F4C441FE0FBA400995D9A /* NASSystemManager.m */,
+			);
+			path = NASSystemManager;
+			sourceTree = "<group>";
+		};
+		804F4C461FE10B9100995D9A /* NASImagePickerAlbumCollectionViewHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C4C1FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.h */,
+				804F4C4D1FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.m */,
+				804F4C4E1FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.xib */,
+			);
+			path = NASImagePickerAlbumCollectionViewHeaderView;
+			sourceTree = "<group>";
+		};
+		804F4C511FE1208200995D9A /* NASOpenSystemSettingManager */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C521FE120BB00995D9A /* NASOpenSystemSettingManager.h */,
+				804F4C531FE120BB00995D9A /* NASOpenSystemSettingManager.m */,
+			);
+			path = NASOpenSystemSettingManager;
+			sourceTree = "<group>";
+		};
+		8053A9F71FE1381E00994019 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				8053A9F81FE1381E00994019 /* NASPhotoConstant */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		8053A9F81FE1381E00994019 /* NASPhotoConstant */ = {
+			isa = PBXGroup;
+			children = (
+				8053A9F91FE1382C00994019 /* NASPhotoConstant.h */,
+			);
+			path = NASPhotoConstant;
+			sourceTree = "<group>";
+		};
+		80553BC41FDCE9DA0091717B /* PhotographyAndVideo */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9681FDE7E5600B6546C /* Manager */,
+				801BE9C01FDEA9D200B6546C /* Model */,
+				801BE95B1FDE709700B6546C /* CropVideoFrame */,
+				80553BC51FDCEA800091717B /* ImageAndVideoToLive */,
+				8089A9AE20439FC500FFAEE0 /* ReverseVideo */,
+				8042068F1FF345670010FA52 /* Resource */,
+			);
+			path = PhotographyAndVideo;
+			sourceTree = "<group>";
+		};
+		80553BC51FDCEA800091717B /* ImageAndVideoToLive */ = {
+			isa = PBXGroup;
+			children = (
+				80553BC61FDCEAFB0091717B /* ViewController */,
+				80553BC71FDCEAFB0091717B /* Manager */,
+			);
+			path = ImageAndVideoToLive;
+			sourceTree = "<group>";
+		};
+		80553BC61FDCEAFB0091717B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				801BE9551FDE6EED00B6546C /* NASImageAndVideoToLiveViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		80553BC71FDCEAFB0091717B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				80553BCA1FDCEC110091717B /* NASImageAndVideoToLiveManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		80553BCA1FDCEC110091717B /* NASImageAndVideoToLiveManager */ = {
+			isa = PBXGroup;
+			children = (
+				80553BCB1FDCEC820091717B /* NASImageAndVideoToLiveManager.h */,
+				80553BCC1FDCEC820091717B /* NASImageAndVideoToLiveManager.m */,
+			);
+			path = NASImageAndVideoToLiveManager;
+			sourceTree = "<group>";
+		};
+		8067B1021FF49A9300C37954 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				8067B1161FF4C1CC00C37954 /* Model */,
+				80CF4E0F1FFDDE5B0007FB15 /* ViewController */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		8067B1041FF49CF800C37954 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				8067B1071FF49D6800C37954 /* NASDatabaseManager */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		8067B1071FF49D6800C37954 /* NASDatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				8067B1081FF49E6100C37954 /* NASDatabaseManager.h */,
+				8067B1091FF49E6100C37954 /* NASDatabaseManager.m */,
+			);
+			path = NASDatabaseManager;
+			sourceTree = "<group>";
+		};
+		8067B10B1FF4A77700C37954 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8067B10C1FF4A77C00C37954 /* ViewController */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		8067B10C1FF4A77C00C37954 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8067B1101FF4A79D00C37954 /* NASARDemoViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8067B1101FF4A79D00C37954 /* NASARDemoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8067B1111FF4A7B200C37954 /* NASARDemoViewController.h */,
+				8067B1121FF4A7B200C37954 /* NASARDemoViewController.m */,
+				8067B1131FF4A7B200C37954 /* NASARDemoViewController.xib */,
+			);
+			path = NASARDemoViewController;
+			sourceTree = "<group>";
+		};
+		8067B1161FF4C1CC00C37954 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8067B1171FF4C1DE00C37954 /* StudentModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8067B1171FF4C1DE00C37954 /* StudentModel */ = {
+			isa = PBXGroup;
+			children = (
+				8067B1181FF4C1EB00C37954 /* NASDemoStudentModel */,
+			);
+			path = StudentModel;
+			sourceTree = "<group>";
+		};
+		8067B1181FF4C1EB00C37954 /* NASDemoStudentModel */ = {
+			isa = PBXGroup;
+			children = (
+				8067B1191FF4C21F00C37954 /* NASDemoStudentModel.h */,
+				8067B11A1FF4C21F00C37954 /* NASDemoStudentModel.m */,
+			);
+			path = NASDemoStudentModel;
+			sourceTree = "<group>";
+		};
+		807053471FEA245A002FC6A5 /* AugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				8067B10B1FF4A77700C37954 /* Demo */,
+				8070535F1FEA4C8E002FC6A5 /* Manager */,
+				807053651FEA6634002FC6A5 /* Resource */,
+			);
+			path = AugmentedReality;
+			sourceTree = "<group>";
+		};
+		807053591FEA4B93002FC6A5 /* NASLongitudeAndLatitudeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8070535A1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.h */,
+				8070535B1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.m */,
+				8070535C1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.xib */,
+			);
+			path = NASLongitudeAndLatitudeViewController;
+			sourceTree = "<group>";
+		};
+		8070535F1FEA4C8E002FC6A5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				807053601FEA4C96002FC6A5 /* NASARCheckManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		807053601FEA4C96002FC6A5 /* NASARCheckManager */ = {
+			isa = PBXGroup;
+			children = (
+				807053611FEA4CCB002FC6A5 /* NASARCheckManager.h */,
+				807053621FEA4CCB002FC6A5 /* NASARCheckManager.m */,
+			);
+			path = NASARCheckManager;
+			sourceTree = "<group>";
+		};
+		807053651FEA6634002FC6A5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8070536A1FEA66FE002FC6A5 /* Models.scnassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		807475811FE390EF00184516 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				807475821FE394E000184516 /* LongitudeAndLatitude */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		807475821FE394E000184516 /* LongitudeAndLatitude */ = {
+			isa = PBXGroup;
+			children = (
+				807053591FEA4B93002FC6A5 /* NASLongitudeAndLatitudeViewController */,
+			);
+			path = LongitudeAndLatitude;
+			sourceTree = "<group>";
+		};
+		807475891FE3A20700184516 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				801CCB4C1FD928EA00468EFF /* NASLocationManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8074758A1FE3A8AD00184516 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8074758B1FE3A8B600184516 /* Strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8074758B1FE3A8B600184516 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				807475901FE3A91300184516 /* Location.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		807475931FE3D82E00184516 /* NASVideoResizeAndRotateViewController */ = {
+			isa = PBXGroup;
+			children = (
+				807475941FE3D87200184516 /* NASVideoResizeAndRotateViewController.h */,
+				807475951FE3D87200184516 /* NASVideoResizeAndRotateViewController.m */,
+			);
+			path = NASVideoResizeAndRotateViewController;
+			sourceTree = "<group>";
+		};
+		807475991FE3DE5000184516 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				8074759A1FE3E0EB00184516 /* NASVideoResizeAndRotateCoordinator */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		8074759A1FE3E0EB00184516 /* NASVideoResizeAndRotateCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				8074759B1FE3E12E00184516 /* NASVideoResizeAndRotateCoordinator.h */,
+				8074759C1FE3E12E00184516 /* NASVideoResizeAndRotateCoordinator.m */,
+			);
+			path = NASVideoResizeAndRotateCoordinator;
+			sourceTree = "<group>";
+		};
+		8074759E1FE3EBC800184516 /* NASVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8074759F1FE3EBE300184516 /* NASVideoPlayer.h */,
+				807475A01FE3EBE300184516 /* NASVideoPlayer.m */,
+			);
+			path = NASVideoPlayer;
+			sourceTree = "<group>";
+		};
+		807D88241FD56E6200BFD958 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				80329DBA1FD7989D00CE8374 /* Base */,
+				807D88251FD56E6200BFD958 /* Main */,
+				807D882B1FD56EE400BFD958 /* Featured */,
+				807D882D1FD56EE400BFD958 /* Category */,
+				807D882A1FD56EE400BFD958 /* Search */,
+				807D882C1FD56EE400BFD958 /* Mine */,
+				8031F21D1FDAA20400855F78 /* Application */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		807D88251FD56E6200BFD958 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1D21FDA799C00855F78 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		807D882A1FD56EE400BFD958 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1D71FDA79CE00855F78 /* ViewController */,
+				8031F1DB1FDA79CE00855F78 /* Resource */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		807D882B1FD56EE400BFD958 /* Featured */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1CA1FDA796F00855F78 /* ViewController */,
+				80401EE31FE7664E0011FA83 /* View */,
+				80401EEF1FE78DDF0011FA83 /* Manager */,
+				80401EF01FE78E140011FA83 /* Configuration */,
+				8031F1C41FDA796E00855F78 /* Resource */,
+			);
+			path = Featured;
+			sourceTree = "<group>";
+		};
+		807D882C1FD56EE400BFD958 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1E51FDA7A1100855F78 /* ViewController */,
+				8031F1E91FDA7A1100855F78 /* Resource */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		807D882D1FD56EE400BFD958 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8031F1AC1FDA781000855F78 /* ViewController */,
+				8031F23C1FDAA4D900855F78 /* View */,
+				8031F19F1FDA767B00855F78 /* Model */,
+				8031F1A01FDA767B00855F78 /* Manager */,
+				8031F1A91FDA77F300855F78 /* Configuration */,
+				801CCB351FD9233D00468EFF /* Resource */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8089A9AE20439FC500FFAEE0 /* ReverseVideo */ = {
+			isa = PBXGroup;
+			children = (
+				8089A9AF20439FFE00FFAEE0 /* ViewController */,
+				8089A9B62043D6CF00FFAEE0 /* Manager */,
+			);
+			path = ReverseVideo;
+			sourceTree = "<group>";
+		};
+		8089A9AF20439FFE00FFAEE0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8089A9B02043A3C000FFAEE0 /* NASReverseVideoViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8089A9B02043A3C000FFAEE0 /* NASReverseVideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8089A9B12043A3DB00FFAEE0 /* NASReverseVideoViewController.h */,
+				8089A9B22043A3DB00FFAEE0 /* NASReverseVideoViewController.m */,
+				8089A9B32043A3DB00FFAEE0 /* NASReverseVideoViewController.xib */,
+			);
+			path = NASReverseVideoViewController;
+			sourceTree = "<group>";
+		};
+		8089A9B62043D6CF00FFAEE0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8089A9B72043D6E100FFAEE0 /* NASReverseVideoManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8089A9B72043D6E100FFAEE0 /* NASReverseVideoManager */ = {
+			isa = PBXGroup;
+			children = (
+				8089A9B82043D6FB00FFAEE0 /* NASReverseVideoManager.h */,
+				8089A9B92043D6FB00FFAEE0 /* NASReverseVideoManager.m */,
+			);
+			path = NASReverseVideoManager;
+			sourceTree = "<group>";
+		};
+		80AA19C620592C5D00213B60 /* MachineLearning */ = {
+			isa = PBXGroup;
+			children = (
+				80AA19C720592C7A00213B60 /* MetalCNN */,
+			);
+			path = MachineLearning;
+			sourceTree = "<group>";
+		};
+		80AA19C720592C7A00213B60 /* MetalCNN */ = {
+			isa = PBXGroup;
+			children = (
+				80AA19C820592C8E00213B60 /* ViewController */,
+			);
+			path = MetalCNN;
+			sourceTree = "<group>";
+		};
+		80AA19C820592C8E00213B60 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				80AA19C920592C9800213B60 /* NASMetalCNNViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		80AA19C920592C9800213B60 /* NASMetalCNNViewController */ = {
+			isa = PBXGroup;
+			children = (
+				80AA19CE20592CEB00213B60 /* NASMetalCNNViewController.h */,
+				80AA19CF20592CEB00213B60 /* NASMetalCNNViewController.m */,
+				80AA19D020592CEB00213B60 /* NASMetalCNNViewController.xib */,
+			);
+			path = NASMetalCNNViewController;
+			sourceTree = "<group>";
+		};
+		80B219601FD55FE8006B4416 = {
+			isa = PBXGroup;
+			children = (
+				80B2196B1FD55FE8006B4416 /* NanoSparrow */,
+				80DB55B9201B0B9C00396A15 /* NanoSparrowUITests */,
+				80DB55C7201B0BAB00396A15 /* NanoSparrowTests */,
+				80B2196A1FD55FE8006B4416 /* Products */,
+				5AE6550F5BD1158FBA480FEE /* Pods */,
+				E12E5FEB9125B698631BE10D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80B2196A1FD55FE8006B4416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80B219691FD55FE8006B4416 /* NanoSparrow.app */,
+				80DB55B8201B0B9C00396A15 /* NanoSparrowUITests.xctest */,
+				80DB55C6201B0BAB00396A15 /* NanoSparrowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80B2196B1FD55FE8006B4416 /* NanoSparrow */ = {
+			isa = PBXGroup;
+			children = (
+				804F4C231FE0EA9500995D9A /* Header */,
+				801CCAF71FD90A3900468EFF /* Constant */,
+				801CCAEE1FD9092300468EFF /* Category */,
+				801CCAFB1FD90C9A00468EFF /* Function */,
+				807D88241FD56E6200BFD958 /* Module */,
+				801CCB501FD92F0900468EFF /* Configurations */,
+				80B2196C1FD55FE8006B4416 /* AppDelegate.h */,
+				80B2196D1FD55FE8006B4416 /* AppDelegate.m */,
+				80B219721FD55FE8006B4416 /* Main.storyboard */,
+				801EC0C31FD9672900AE38FB /* LaunchScreen_en.storyboard */,
+				8031F1991FDA4C0700855F78 /* LaunchScreen_zh.storyboard */,
+				80B2197D1FD55FE8006B4416 /* Info.plist */,
+				8031F1941FDA4B9600855F78 /* InfoPlist.strings */,
+				80B219751FD55FE8006B4416 /* NanoSparrow.xcdatamodeld */,
+				80B219781FD55FE8006B4416 /* Assets.xcassets */,
+				80B2197E1FD55FE8006B4416 /* main.m */,
+			);
+			path = NanoSparrow;
+			sourceTree = "<group>";
+		};
+		80CF4E0F1FFDDE5B0007FB15 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				80CF4E101FFDDEF50007FB15 /* NASDatabaseDemoViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		80CF4E101FFDDEF50007FB15 /* NASDatabaseDemoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				80CF4E111FFDDF110007FB15 /* NASDatabaseDemoViewController.h */,
+				80CF4E121FFDDF110007FB15 /* NASDatabaseDemoViewController.m */,
+				80CF4E131FFDDF110007FB15 /* NASDatabaseDemoViewController.xib */,
+			);
+			path = NASDatabaseDemoViewController;
+			sourceTree = "<group>";
+		};
+		80CF4E1E1FFDE16F0007FB15 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				80CF4E1F1FFDE1860007FB15 /* ViewController */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		80CF4E1F1FFDE1860007FB15 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				80CF4E201FFDE18C0007FB15 /* NASDemoViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		80CF4E201FFDE18C0007FB15 /* NASDemoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				80CF4E211FFDE2390007FB15 /* NASDemoViewController.h */,
+				80CF4E221FFDE2390007FB15 /* NASDemoViewController.m */,
+				80CF4E231FFDE2390007FB15 /* NASDemoViewController.xib */,
+			);
+			path = NASDemoViewController;
+			sourceTree = "<group>";
+		};
+		80DB55B9201B0B9C00396A15 /* NanoSparrowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80DB55BA201B0B9C00396A15 /* NanoSparrowUITests.m */,
+				80DB55BC201B0B9C00396A15 /* Info.plist */,
+			);
+			path = NanoSparrowUITests;
+			sourceTree = "<group>";
+		};
+		80DB55C7201B0BAB00396A15 /* NanoSparrowTests */ = {
+			isa = PBXGroup;
+			children = (
+				80DB55C8201B0BAB00396A15 /* NanoSparrowTests.m */,
+				80DB55CA201B0BAB00396A15 /* Info.plist */,
+			);
+			path = NanoSparrowTests;
+			sourceTree = "<group>";
+		};
+		E12E5FEB9125B698631BE10D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBA9A893741F5D8486F1AD02 /* libPods-NanoSparrow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80B219681FD55FE8006B4416 /* NanoSparrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B219981FD55FE8006B4416 /* Build configuration list for PBXNativeTarget "NanoSparrow" */;
+			buildPhases = (
+				5431CE5C95F12687E7D562D2 /* [CP] Check Pods Manifest.lock */,
+				80B219651FD55FE8006B4416 /* Sources */,
+				80B219661FD55FE8006B4416 /* Frameworks */,
+				80B219671FD55FE8006B4416 /* Resources */,
+				0AAB2A41CDC42432CE399D90 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NanoSparrow;
+			productName = nanosparrow;
+			productReference = 80B219691FD55FE8006B4416 /* NanoSparrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80DB55B7201B0B9C00396A15 /* NanoSparrowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DB55BF201B0B9C00396A15 /* Build configuration list for PBXNativeTarget "NanoSparrowUITests" */;
+			buildPhases = (
+				80DB55B4201B0B9C00396A15 /* Sources */,
+				80DB55B5201B0B9C00396A15 /* Frameworks */,
+				80DB55B6201B0B9C00396A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80DB55BE201B0B9C00396A15 /* PBXTargetDependency */,
+			);
+			name = NanoSparrowUITests;
+			productName = NanoSparrowUITests;
+			productReference = 80DB55B8201B0B9C00396A15 /* NanoSparrowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		80DB55C5201B0BAB00396A15 /* NanoSparrowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DB55CD201B0BAB00396A15 /* Build configuration list for PBXNativeTarget "NanoSparrowTests" */;
+			buildPhases = (
+				80DB55C2201B0BAB00396A15 /* Sources */,
+				80DB55C3201B0BAB00396A15 /* Frameworks */,
+				80DB55C4201B0BAB00396A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80DB55CC201B0BAB00396A15 /* PBXTargetDependency */,
+			);
+			name = NanoSparrowTests;
+			productName = NanoSparrowTests;
+			productReference = 80DB55C6201B0BAB00396A15 /* NanoSparrowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B219611FD55FE8006B4416 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = nanosparrow.com;
+				TargetAttributes = {
+					80B219681FD55FE8006B4416 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					80DB55B7201B0B9C00396A15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80B219681FD55FE8006B4416;
+					};
+					80DB55C5201B0BAB00396A15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80B219681FD55FE8006B4416;
+					};
+				};
+			};
+			buildConfigurationList = 80B219641FD55FE8006B4416 /* Build configuration list for PBXProject "NanoSparrow" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = 80B219601FD55FE8006B4416;
+			productRefGroup = 80B2196A1FD55FE8006B4416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80B219681FD55FE8006B4416 /* NanoSparrow */,
+				80DB55B7201B0B9C00396A15 /* NanoSparrowUITests */,
+				80DB55C5201B0BAB00396A15 /* NanoSparrowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B219671FD55FE8006B4416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80227B701FDFC6DF008533F9 /* ImagePicker.strings in Resources */,
+				804097D61FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.xib in Resources */,
+				80401EFB1FE7A4160011FA83 /* VideoFunction.strings in Resources */,
+				8031F1CF1FDA796F00855F78 /* FeaturedVC.xcassets in Resources */,
+				804755301FF256CC0046C64D /* add_movie@1x.png in Resources */,
+				80CF4E251FFDE2390007FB15 /* NASDemoViewController.xib in Resources */,
+				804F4C3B1FE0EEBA00995D9A /* Photo.strings in Resources */,
+				80AA19D220592CEB00213B60 /* NASMetalCNNViewController.xib in Resources */,
+				8070536B1FEA66FE002FC6A5 /* Models.scnassets in Resources */,
+				80401EE91FE766DE0011FA83 /* NASApplicationCollectionViewCell.xib in Resources */,
+				8031F1921FDA4B9600855F78 /* InfoPlist.strings in Resources */,
+				804097CC1FE0C29500F28C14 /* NASImagePickerAlbumViewController.xib in Resources */,
+				801BA48D20454B5B0061BEE5 /* NASWeatherReportViewController.xib in Resources */,
+				801BA496204558EC0061BEE5 /* SourceHanSerif.ttc in Resources */,
+				8031F1A51FDA77D300855F78 /* CategoryConfiguration.json in Resources */,
+				8031F24C1FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.xib in Resources */,
+				80401EF21FE78EE30011FA83 /* FeaturedVCConfiguration.json in Resources */,
+				80CF4E151FFDDF110007FB15 /* NASDatabaseDemoViewController.xib in Resources */,
+				801BE9631FDE70DD00B6546C /* NASCropVideoFrameViewController.xib in Resources */,
+				8074758E1FE3A91300184516 /* Location.strings in Resources */,
+				8031F1AB1FDA77F300855F78 /* CategoryVCConfiguration.json in Resources */,
+				804988741FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.xib in Resources */,
+				801BE95A1FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.xib in Resources */,
+				8031F1F11FDA7A1100855F78 /* MineVC.xcassets in Resources */,
+				8089A9B52043A3DB00FFAEE0 /* NASReverseVideoViewController.xib in Resources */,
+				804988661FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.xib in Resources */,
+				8067B1151FF4A7B200C37954 /* NASARDemoViewController.xib in Resources */,
+				80227B6D1FDFC6AA008533F9 /* add_photo@1x.png in Resources */,
+				801BE9541FDE67E500B6546C /* Application.xcassets in Resources */,
+				8031F1C21FDA792800855F78 /* CategoryVC.strings in Resources */,
+				8070535E1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.xib in Resources */,
+				8031F1CE1FDA796F00855F78 /* FeaturedVC.strings in Resources */,
+				8031F1B51FDA783F00855F78 /* Category.strings in Resources */,
+				801EC0C11FD9672900AE38FB /* LaunchScreen_en.storyboard in Resources */,
+				8031F1BB1FDA787300855F78 /* Application.strings in Resources */,
+				804F4C321FE0ED5E00995D9A /* Common.strings in Resources */,
+				804F4C501FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.xib in Resources */,
+				80B219791FD55FE8006B4416 /* Assets.xcassets in Resources */,
+				8031F19B1FDA4C0800855F78 /* LaunchScreen_zh.storyboard in Resources */,
+				8031F1E21FDA79CE00855F78 /* SearchVC.strings in Resources */,
+				8031F1F01FDA7A1100855F78 /* MineVC.strings in Resources */,
+				8031F1A81FDA77E500855F78 /* ApplicationConfiguration.json in Resources */,
+				80B219741FD55FE8006B4416 /* Main.storyboard in Resources */,
+				801CCB371FD9234F00468EFF /* CategoryVC.xcassets in Resources */,
+				804755321FF25C400046C64D /* boom@1x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB55B6201B0B9C00396A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB55C4201B0BAB00396A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AAB2A41CDC42432CE399D90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NanoSparrow/Pods-NanoSparrow-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NanoSparrow/Pods-NanoSparrow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5431CE5C95F12687E7D562D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NanoSparrow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80B219651FD55FE8006B4416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804988601FE227AB00CD53D4 /* NSMutableDictionary+Safe.m in Sources */,
+				8031F2461FDAA4D900855F78 /* NASCategoryFlowLayout.m in Sources */,
+				8089A9B42043A3DB00FFAEE0 /* NASReverseVideoViewController.m in Sources */,
+				801CCBAB1FD9590900468EFF /* NASApplicationLoadModel.m in Sources */,
+				80CF4E141FFDDF110007FB15 /* NASDatabaseDemoViewController.m in Sources */,
+				376A217D2099AAC00098DAB0 /* NASWifiManager.m in Sources */,
+				80401EED1FE76A7C0011FA83 /* NASFeaturedCollectionViewFlowLayout.m in Sources */,
+				8040322B1FE7DAFD00E8C2A1 /* UIView+Subview.m in Sources */,
+				801BE9591FDE6F0300B6546C /* NASImageAndVideoToLiveViewController.m in Sources */,
+				8031F1B01FDA781000855F78 /* NASCategoryViewController.m in Sources */,
+				801CCB1F1FD91CDD00468EFF /* NASWebSocketManager.m in Sources */,
+				80227B781FDFC960008533F9 /* NASBaseViewControllerCoordinator.m in Sources */,
+				801CCB221FD91CE700468EFF /* NASWebSocketRequest.m in Sources */,
+				807475A11FE3EBE300184516 /* NASVideoPlayer.m in Sources */,
+				8031F1F61FDA7BE900855F78 /* NASCategoryModel.m in Sources */,
+				801CCB971FD9495D00468EFF /* NASLocalizedStringModel.m in Sources */,
+				8049886F1FE24C1E00CD53D4 /* NASImagePickerPhotoFlowLayout.m in Sources */,
+				8070535D1FEA4BB7002FC6A5 /* NASLongitudeAndLatitudeViewController.m in Sources */,
+				804097CB1FE0C29500F28C14 /* NASImagePickerAlbumViewController.m in Sources */,
+				8049886C1FE24B2F00CD53D4 /* NASBaseFlowLayout.m in Sources */,
+				801CCB9C1FD94BC000468EFF /* NASCategoryLoadManager.m in Sources */,
+				8031F1D01FDA796F00855F78 /* NASFeaturedViewController.m in Sources */,
+				801BE9C81FDEAB1700B6546C /* NASCropVideoFrameModel.m in Sources */,
+				8031F1D61FDA799C00855F78 /* NASMainViewController.m in Sources */,
+				801CCB4F1FD928FD00468EFF /* NASLocationManager.m in Sources */,
+				8067B11B1FF4C21F00C37954 /* NASDemoStudentModel.m in Sources */,
+				807053631FEA4CCB002FC6A5 /* NASARCheckManager.m in Sources */,
+				8031F1E11FDA79CE00855F78 /* NASSearchViewController.m in Sources */,
+				804988651FE24A1D00CD53D4 /* NASImagePickerPhotoGirdViewController.m in Sources */,
+				801CCAED1FD9085A00468EFF /* NASBaseModel.m in Sources */,
+				80329DBE1FD798EA00CE8374 /* NASBaseViewController.m in Sources */,
+				804F4C451FE0FBA400995D9A /* NASSystemManager.m in Sources */,
+				8067B1141FF4A7B200C37954 /* NASARDemoViewController.m in Sources */,
+				804097D51FE0C59700F28C14 /* NASImagePickerAlbumCollectionViewCell.m in Sources */,
+				80227B7D1FDFCD25008533F9 /* NASImagePickerCoordinator.m in Sources */,
+				804097D11FE0C54C00F28C14 /* NASImagePickerAlbumFlowLayout.m in Sources */,
+				804032301FE7E34100E8C2A1 /* AVAsset+Display.m in Sources */,
+				801BA49220454D930061BEE5 /* NASWeatherReportManager.m in Sources */,
+				8067B10A1FF49E6100C37954 /* NASDatabaseManager.m in Sources */,
+				80401EE81FE766DE0011FA83 /* NASApplicationCollectionViewCell.m in Sources */,
+				801BE9521FDE64FB00B6546C /* UIWindow+FLEX.m in Sources */,
+				8031F2181FDA8D1800855F78 /* NSMutableArray+Safe.m in Sources */,
+				801BE9621FDE70DD00B6546C /* NASCropVideoFrameViewController.m in Sources */,
+				8031F21B1FDA8D2F00855F78 /* NSArray+Safe.m in Sources */,
+				801CCBA61FD94FB400468EFF /* NASCategoryLoadModel.m in Sources */,
+				8074759D1FE3E12E00184516 /* NASVideoResizeAndRotateCoordinator.m in Sources */,
+				8031F2021FDA81F700855F78 /* NASBaseLoadManager.m in Sources */,
+				801CCB0C1FD916FC00468EFF /* NASNetworkManager.m in Sources */,
+				801BE9C41FDEAA2100B6546C /* NASVideoSettingModel.m in Sources */,
+				8031F1FA1FDA7C5400855F78 /* NASCategoryManager.m in Sources */,
+				8089A9BA2043D6FB00FFAEE0 /* NASReverseVideoManager.m in Sources */,
+				804F4C221FE0E66B00995D9A /* NASPhotoManager.m in Sources */,
+				804988791FE2936300CD53D4 /* NASTimeManager.m in Sources */,
+				80B219771FD55FE8006B4416 /* NanoSparrow.xcdatamodeld in Sources */,
+				804988731FE26D9500CD53D4 /* NASImagePickerPhotoCollectionViewCell.m in Sources */,
+				80CF4E241FFDE2390007FB15 /* NASDemoViewController.m in Sources */,
+				801BE9711FDE801800B6546C /* NASPhotoFunctionManager.m in Sources */,
+				8031F24B1FDAA53700855F78 /* NASCategoryCollectionViewHeaderView.m in Sources */,
+				80AA19D120592CEB00213B60 /* NASMetalCNNViewController.m in Sources */,
+				801CCBA11FD94C4700468EFF /* NASApplicationLoadManager.m in Sources */,
+				80401EF61FE78F780011FA83 /* NASFeaturedManager.m in Sources */,
+				8031F1EF1FDA7A1100855F78 /* NASMineViewController.m in Sources */,
+				80553BCD1FDCEC820091717B /* NASImageAndVideoToLiveManager.m in Sources */,
+				80B2197F1FD55FE8006B4416 /* main.m in Sources */,
+				801BE9671FDE710700B6546C /* NASCropVideoFrameManager.m in Sources */,
+				804F4C4F1FE10D8700995D9A /* NASImagePickerAlbumCollectionViewHeaderView.m in Sources */,
+				801BE96D1FDE7EF100B6546C /* NASFileSystemManager.m in Sources */,
+				801CCB0D1FD916FC00468EFF /* NASNetworkRequest.m in Sources */,
+				801BA48C20454B5B0061BEE5 /* NASWeatherReportViewController.m in Sources */,
+				801CCAF61FD9097700468EFF /* UIColor+Hex.m in Sources */,
+				804F4C541FE120BB00995D9A /* NASOpenSystemSettingManager.m in Sources */,
+				807475971FE3D87200184516 /* NASVideoResizeAndRotateViewController.m in Sources */,
+				80B2196E1FD55FE8006B4416 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB55B4201B0B9C00396A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DB55BB201B0B9C00396A15 /* NanoSparrowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB55C2201B0BAB00396A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DB55C9201B0BAB00396A15 /* NanoSparrowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80DB55BE201B0B9C00396A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B219681FD55FE8006B4416 /* NanoSparrow */;
+			targetProxy = 80DB55BD201B0B9C00396A15 /* PBXContainerItemProxy */;
+		};
+		80DB55CC201B0BAB00396A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B219681FD55FE8006B4416 /* NanoSparrow */;
+			targetProxy = 80DB55CB201B0BAB00396A15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		801EC0C31FD9672900AE38FB /* LaunchScreen_en.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801EC0CF1FD96AF100AE38FB /* Base */,
+			);
+			name = LaunchScreen_en.storyboard;
+			sourceTree = "<group>";
+		};
+		80227B721FDFC6DF008533F9 /* ImagePicker.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80227B711FDFC6DF008533F9 /* en */,
+				80227B731FDFC6E0008533F9 /* zh-Hans */,
+				80227B741FDFC6E4008533F9 /* Base */,
+			);
+			name = ImagePicker.strings;
+			sourceTree = "<group>";
+		};
+		8031F1941FDA4B9600855F78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8031F1931FDA4B9600855F78 /* en */,
+				8031F1951FDA4B9700855F78 /* zh-Hans */,
+				8031F1961FDA4B9C00855F78 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8031F1991FDA4C0700855F78 /* LaunchScreen_zh.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8031F19A1FDA4C0700855F78 /* Base */,
+			);
+			name = LaunchScreen_zh.storyboard;
+			sourceTree = "<group>";
+		};
+		8031F1B21FDA783F00855F78 /* Category.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8031F1B31FDA783F00855F78 /* zh-Hans */,
+				8031F1B41FDA783F00855F78 /* en */,
+				8031F1BD1FDA78E900855F78 /* Base */,
+			);
+			name = Category.strings;
+			sourceTree = "<group>";
+		};
+		8031F1B81FDA787300855F78 /* Application.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8031F1B91FDA787300855F78 /* zh-Hans */,
+				8031F1BA1FDA787300855F78 /* en */,
+				8031F1BC1FDA788C00855F78 /* Base */,
+			);
+			name = Application.strings;
+			sourceTree = "<group>";
+		};
+		8031F1BF1FDA792800855F78 /* CategoryVC.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8031F1C01FDA792800855F78 /* zh-Hans */,
+				8031F1C11FDA792800855F78 /* en */,
+				8031F1C31FDA792F00855F78 /* Base */,
+			);
+			name = CategoryVC.strings;
+			sourceTree = "<group>";
+		};
+		8031F1C61FDA796E00855F78 /* FeaturedVC.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8031F1C71FDA796E00855F78 /* zh-Hans */,
+				8031F1C81FDA796E00855F78 /* en */,
+				8031F1D11FDA797700855F78 /* Base */,
+			);
+			name = FeaturedVC.strings;
+			sourceTree = "<group>";
+		};
+		8031F1DD1FDA79CE00855F78 /* SearchVC.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8031F1DE1FDA79CE00855F78 /* zh-Hans */,
+				8031F1DF1FDA79CE00855F78 /* en */,
+				8031F1E41FDA79D700855F78 /* Base */,
+			);
+			name = SearchVC.strings;
+			sourceTree = "<group>";
+		};
+		8031F1EB1FDA7A1100855F78 /* MineVC.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8031F1EC1FDA7A1100855F78 /* zh-Hans */,
+				8031F1ED1FDA7A1100855F78 /* en */,
+				8031F1F21FDA7A7600855F78 /* Base */,
+			);
+			name = MineVC.strings;
+			sourceTree = "<group>";
+		};
+		80401EFD1FE7A4160011FA83 /* VideoFunction.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80401EFC1FE7A4160011FA83 /* en */,
+				80401EFE1FE7A41A0011FA83 /* Base */,
+				80401EFF1FE7A41B0011FA83 /* zh-Hans */,
+			);
+			name = VideoFunction.strings;
+			sourceTree = "<group>";
+		};
+		804F4C341FE0ED5E00995D9A /* Common.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804F4C331FE0ED5E00995D9A /* en */,
+				804F4C351FE0ED6000995D9A /* zh-Hans */,
+				804F4C361FE0ED6200995D9A /* Base */,
+			);
+			name = Common.strings;
+			sourceTree = "<group>";
+		};
+		804F4C3D1FE0EEBA00995D9A /* Photo.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804F4C3C1FE0EEBA00995D9A /* en */,
+				804F4C3E1FE0EEBB00995D9A /* zh-Hans */,
+				804F4C3F1FE0EEBE00995D9A /* Base */,
+			);
+			name = Photo.strings;
+			sourceTree = "<group>";
+		};
+		807475901FE3A91300184516 /* Location.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8074758F1FE3A91300184516 /* en */,
+				807475911FE3A91700184516 /* zh-Hans */,
+				807475921FE3A91D00184516 /* Base */,
+			);
+			name = Location.strings;
+			sourceTree = "<group>";
+		};
+		80B219721FD55FE8006B4416 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801EC0CE1FD96AF100AE38FB /* Base */,
+				801EC0D11FD96AFA00AE38FB /* en */,
+				801EC0D31FD96AFF00AE38FB /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80B219961FD55FE8006B4416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80B219971FD55FE8006B4416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80B219991FD55FE8006B4416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ECD7EB2FE199674D380ED5D /* Pods-NanoSparrow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = nanosparrow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NanoSparrow/Module/Application/AugmentedReality/Demo/ViewController/NanoSparrow-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80B2199A1FD55FE8006B4416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4AAE9249A1BF62869A7FBC /* Pods-NanoSparrow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = nanosparrow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NanoSparrow/Module/Application/AugmentedReality/Demo/ViewController/NanoSparrow-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80DB55C0201B0B9C00396A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				INFOPLIST_FILE = NanoSparrowUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow.NanoSparrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NanoSparrow;
+			};
+			name = Debug;
+		};
+		80DB55C1201B0B9C00396A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				INFOPLIST_FILE = NanoSparrowUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow.NanoSparrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NanoSparrow;
+			};
+			name = Release;
+		};
+		80DB55CE201B0BAB00396A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				INFOPLIST_FILE = NanoSparrowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow.NanoSparrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoSparrow.app/NanoSparrow";
+			};
+			name = Debug;
+		};
+		80DB55CF201B0BAB00396A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4QLTYGECA;
+				INFOPLIST_FILE = NanoSparrowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanosparrow.NanoSparrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoSparrow.app/NanoSparrow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80B219641FD55FE8006B4416 /* Build configuration list for PBXProject "NanoSparrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B219961FD55FE8006B4416 /* Debug */,
+				80B219971FD55FE8006B4416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B219981FD55FE8006B4416 /* Build configuration list for PBXNativeTarget "NanoSparrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B219991FD55FE8006B4416 /* Debug */,
+				80B2199A1FD55FE8006B4416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80DB55BF201B0B9C00396A15 /* Build configuration list for PBXNativeTarget "NanoSparrowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DB55C0201B0B9C00396A15 /* Debug */,
+				80DB55C1201B0B9C00396A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80DB55CD201B0BAB00396A15 /* Build configuration list for PBXNativeTarget "NanoSparrowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DB55CE201B0BAB00396A15 /* Debug */,
+				80DB55CF201B0BAB00396A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80B219751FD55FE8006B4416 /* NanoSparrow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80B219761FD55FE8006B4416 /* NanoSparrow.xcdatamodel */,
+			);
+			currentVersion = 80B219761FD55FE8006B4416 /* NanoSparrow.xcdatamodel */;
+			path = NanoSparrow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80B219611FD55FE8006B4416 /* Project object */;
+}

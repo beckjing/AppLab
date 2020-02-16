@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NASImagePickerAlbumCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="96" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="96" height="128"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rOE-nJ-ynb">
+                        <rect key="frame" x="0.0" y="0.0" width="96" height="96"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="rOE-nJ-ynb" secondAttribute="height" id="Hbl-lt-WD9"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cg6-fB-vYU">
+                        <rect key="frame" x="0.0" y="96" width="96" height="32"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kg3-ss-zea">
+                                <rect key="frame" x="0.0" y="2" width="72.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fby-fV-x3w">
+                                <rect key="frame" x="0.0" y="18.5" width="6.5" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fby-fV-x3w" firstAttribute="top" secondItem="kg3-ss-zea" secondAttribute="bottom" constant="2" id="8oB-xf-iOk"/>
+                            <constraint firstItem="kg3-ss-zea" firstAttribute="leading" secondItem="cg6-fB-vYU" secondAttribute="leading" id="MtE-Cq-Kbn"/>
+                            <constraint firstItem="kg3-ss-zea" firstAttribute="top" secondItem="cg6-fB-vYU" secondAttribute="top" constant="2" id="U0m-X0-PS9"/>
+                            <constraint firstItem="fby-fV-x3w" firstAttribute="leading" secondItem="cg6-fB-vYU" secondAttribute="leading" id="ySE-tj-Lxx"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="cg6-fB-vYU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6v7-cz-dsw"/>
+                <constraint firstItem="rOE-nJ-ynb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="A34-KS-95k"/>
+                <constraint firstAttribute="trailing" secondItem="rOE-nJ-ynb" secondAttribute="trailing" id="QCD-JY-PaO"/>
+                <constraint firstItem="rOE-nJ-ynb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="b97-Wu-pLI"/>
+                <constraint firstItem="cg6-fB-vYU" firstAttribute="top" secondItem="rOE-nJ-ynb" secondAttribute="bottom" id="eij-nr-NiL"/>
+                <constraint firstAttribute="bottom" secondItem="cg6-fB-vYU" secondAttribute="bottom" id="vQl-mO-Jeo"/>
+                <constraint firstAttribute="trailing" secondItem="cg6-fB-vYU" secondAttribute="trailing" id="xwS-xg-OAW"/>
+            </constraints>
+            <size key="customSize" width="176" height="274"/>
+            <connections>
+                <outlet property="albumNameLabel" destination="kg3-ss-zea" id="3Rc-zU-Wzk"/>
+                <outlet property="photoNumberLabel" destination="fby-fV-x3w" id="Zgo-Lm-6Oi"/>
+                <outlet property="thumbnailImageView" destination="rOE-nJ-ynb" id="Nrg-tq-5Dk"/>
+            </connections>
+            <point key="canvasLocation" x="88" y="164"/>
+        </collectionViewCell>
+    </objects>
+</document>

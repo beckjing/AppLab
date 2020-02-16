@@ -1,0 +1,15 @@
+/* 
+  Common.strings
+  NanoSparrow
+
+  Created by yuecheng on 12/13/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+"Operation.confirm" = "确认";
+
+"Operation.cancel"  = "取消";
+
+"Operation.ok"      = "好的";
+
+"Operation.rotate"  = "旋转";

@@ -1,0 +1,21 @@
+/* 
+  ImagePicker.strings
+  NanoSparrow
+
+  Created by yuecheng on 12/12/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+"ImagePicker.photos"      = "照片";
+
+"ImagePicker.allPhotos"   = "所有照片";
+
+"ImagePicker.videos"      = "视频";
+
+"ImagePicker.smartAlbums" = "智能相簿";
+
+"ImagePicker.myAlbums"    = "我的相簿";
+
+"ImagePicker.cannotHandleAssetTitle"   = "抱歉，暂时不支持此类媒体文件。";
+
+"ImagePicker.cannotHandleAssetMessage" = "请选择其他类型文件。";

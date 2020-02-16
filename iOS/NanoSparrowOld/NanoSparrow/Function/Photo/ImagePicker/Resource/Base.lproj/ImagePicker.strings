@@ -1,0 +1,21 @@
+/* 
+  ImagePicker.strings
+  NanoSparrow
+
+  Created by yuecheng on 12/12/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+"ImagePicker.photos"      = "Photos";
+
+"ImagePicker.allPhotos"   = "All Photos";
+
+"ImagePicker.videos"      = "Videos";
+
+"ImagePicker.smartAlbums" = "Smart Albums";
+
+"ImagePicker.myAlbums"    = "My Albums";
+
+"ImagePicker.cannotHandleAssetTitle"   = "Sorry! This type of media is not supported.";
+
+"ImagePicker.cannotHandleAssetMessage" = "Please select other kind of media.";

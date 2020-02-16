@@ -1,0 +1,9 @@
+/* 
+  Location.strings
+  NanoSparrow
+
+  Created by yuecheng on 12/15/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+"Location.authorizationRequestMessage" = "Perhaps you didn't authorize NanoSparrow to access your Location Services, so click Confirm to Settings page or you can go to \"Settings->Privacy->Location Services\" to authorize";

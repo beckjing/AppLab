@@ -1,0 +1,9 @@
+/* 
+  Location.strings
+  NanoSparrow
+
+  Created by yuecheng on 12/15/17.
+  Copyright © 2017 nanosparrow.com. All rights reserved.
+*/
+
+"Location.authorizationRequestMessage" = "您可能未给码小农具定位服务的权限，点击确认将跳转到设置页面，或者您可以去\"设置->隐私->定位服务\"进行权限开启";
