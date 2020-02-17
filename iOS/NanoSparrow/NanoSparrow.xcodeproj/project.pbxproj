@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8054DCF923FB0BA500412AEF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8054DCF823FB0BA500412AEF /* Alamofire */; };
 		80A2BAA223F00E19005D2E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAA123F00E19005D2E39 /* AppDelegate.swift */; };
 		80A2BAA423F00E19005D2E39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAA323F00E19005D2E39 /* SceneDelegate.swift */; };
 		80A2BAA723F00E19005D2E39 /* NanoSparrow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAA523F00E19005D2E39 /* NanoSparrow.xcdatamodeld */; };
@@ -59,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8054DCF923FB0BA500412AEF /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +159,9 @@
 			dependencies = (
 			);
 			name = NanoSparrow;
+			packageProductDependencies = (
+				8054DCF823FB0BA500412AEF /* Alamofire */,
+			);
 			productName = NanoSparrow;
 			productReference = 80A2BA9E23F00E19005D2E39 /* NanoSparrow.app */;
 			productType = "com.apple.product-type.application";
@@ -229,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 80A2BA9523F00E19005D2E39;
+			packageReferences = (
+				8054DCF723FB0BA500412AEF /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 80A2BA9F23F00E19005D2E39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -608,6 +616,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8054DCF723FB0BA500412AEF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8054DCF823FB0BA500412AEF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8054DCF723FB0BA500412AEF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		80A2BAA523F00E19005D2E39 /* NanoSparrow.xcdatamodeld */ = {
