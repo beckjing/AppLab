@@ -1,9 +1,6 @@
 package com.nanosparrow.nanosparrow
 
-import android.os.Build
 import android.os.Bundle
-import android.view.Gravity
-import android.widget.Toolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
