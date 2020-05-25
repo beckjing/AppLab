@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8054DCF923FB0BA500412AEF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8054DCF823FB0BA500412AEF /* Alamofire */; };
+		2EF71D1AFBFA17C7BEBC59F5 /* Pods_NanoSparrowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685D554E084E2D0571D48A90 /* Pods_NanoSparrowTests.framework */; };
+		7BBF76C8FC48E664B30A12D9 /* Pods_NanoSparrow_NanoSparrowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7488B3AD719BAEA684C6E7 /* Pods_NanoSparrow_NanoSparrowUITests.framework */; };
 		80A2BAA223F00E19005D2E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAA123F00E19005D2E39 /* AppDelegate.swift */; };
 		80A2BAA423F00E19005D2E39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAA323F00E19005D2E39 /* SceneDelegate.swift */; };
 		80A2BAA723F00E19005D2E39 /* NanoSparrow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAA523F00E19005D2E39 /* NanoSparrow.xcdatamodeld */; };
@@ -17,6 +18,7 @@
 		80A2BAB123F00E1D005D2E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A2BAAF23F00E1D005D2E39 /* LaunchScreen.storyboard */; };
 		80A2BABC23F00E1D005D2E39 /* NanoSparrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BABB23F00E1D005D2E39 /* NanoSparrowTests.swift */; };
 		80A2BAC723F00E1D005D2E39 /* NanoSparrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A2BAC623F00E1D005D2E39 /* NanoSparrowUITests.swift */; };
+		81CCB636B0860AB8A55B1F2C /* Pods_NanoSparrow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00344FEE3D3FF3B904A6ACC4 /* Pods_NanoSparrow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000550A9A1C3A1CC298DC203 /* Pods-NanoSparrow-NanoSparrowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanoSparrow-NanoSparrowUITests.debug.xcconfig"; path = "Target Support Files/Pods-NanoSparrow-NanoSparrowUITests/Pods-NanoSparrow-NanoSparrowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		00344FEE3D3FF3B904A6ACC4 /* Pods_NanoSparrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NanoSparrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12560D4FB60950CEA3254766 /* Pods-NanoSparrow-NanoSparrowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanoSparrow-NanoSparrowUITests.release.xcconfig"; path = "Target Support Files/Pods-NanoSparrow-NanoSparrowUITests/Pods-NanoSparrow-NanoSparrowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2385192D9A937D424D3F8B81 /* Pods-NanoSparrowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanoSparrowTests.debug.xcconfig"; path = "Target Support Files/Pods-NanoSparrowTests/Pods-NanoSparrowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D3A7E1658CD382E414A10E6 /* Pods-NanoSparrowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanoSparrowTests.release.xcconfig"; path = "Target Support Files/Pods-NanoSparrowTests/Pods-NanoSparrowTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F7488B3AD719BAEA684C6E7 /* Pods_NanoSparrow_NanoSparrowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NanoSparrow_NanoSparrowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F50958241A93B4710012A53 /* Pods-NanoSparrow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanoSparrow.debug.xcconfig"; path = "Target Support Files/Pods-NanoSparrow/Pods-NanoSparrow.debug.xcconfig"; sourceTree = "<group>"; };
+		685D554E084E2D0571D48A90 /* Pods_NanoSparrowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NanoSparrowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC9CF06B0417A21189E2B1D /* Pods-NanoSparrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanoSparrow.release.xcconfig"; path = "Target Support Files/Pods-NanoSparrow/Pods-NanoSparrow.release.xcconfig"; sourceTree = "<group>"; };
 		80A2BA9E23F00E19005D2E39 /* NanoSparrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoSparrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A2BAA123F00E19005D2E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80A2BAA323F00E19005D2E39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8054DCF923FB0BA500412AEF /* Alamofire in Frameworks */,
+				81CCB636B0860AB8A55B1F2C /* Pods_NanoSparrow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF71D1AFBFA17C7BEBC59F5 /* Pods_NanoSparrowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +87,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BBF76C8FC48E664B30A12D9 /* Pods_NanoSparrow_NanoSparrowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22EF5201A0F7033689D3146B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00344FEE3D3FF3B904A6ACC4 /* Pods_NanoSparrow.framework */,
+				4F7488B3AD719BAEA684C6E7 /* Pods_NanoSparrow_NanoSparrowUITests.framework */,
+				685D554E084E2D0571D48A90 /* Pods_NanoSparrowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		80A2BA9523F00E19005D2E39 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +111,8 @@
 				80A2BABA23F00E1D005D2E39 /* NanoSparrowTests */,
 				80A2BAC523F00E1D005D2E39 /* NanoSparrowUITests */,
 				80A2BA9F23F00E19005D2E39 /* Products */,
+				E3D93A4CE8B01DF5CC2DA74E /* Pods */,
+				22EF5201A0F7033689D3146B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +168,20 @@
 			path = NanoSparrowUITests;
 			sourceTree = "<group>";
 		};
+		E3D93A4CE8B01DF5CC2DA74E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F50958241A93B4710012A53 /* Pods-NanoSparrow.debug.xcconfig */,
+				6BC9CF06B0417A21189E2B1D /* Pods-NanoSparrow.release.xcconfig */,
+				000550A9A1C3A1CC298DC203 /* Pods-NanoSparrow-NanoSparrowUITests.debug.xcconfig */,
+				12560D4FB60950CEA3254766 /* Pods-NanoSparrow-NanoSparrowUITests.release.xcconfig */,
+				2385192D9A937D424D3F8B81 /* Pods-NanoSparrowTests.debug.xcconfig */,
+				2D3A7E1658CD382E414A10E6 /* Pods-NanoSparrowTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,18 +189,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80A2BACB23F00E1D005D2E39 /* Build configuration list for PBXNativeTarget "NanoSparrow" */;
 			buildPhases = (
+				1AB16721E9847BB28E809158 /* [CP] Check Pods Manifest.lock */,
 				80A2BA9A23F00E19005D2E39 /* Sources */,
 				80A2BA9B23F00E19005D2E39 /* Frameworks */,
 				80A2BA9C23F00E19005D2E39 /* Resources */,
+				5D90AE5692B3DC05B8D33E0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = NanoSparrow;
-			packageProductDependencies = (
-				8054DCF823FB0BA500412AEF /* Alamofire */,
-			);
 			productName = NanoSparrow;
 			productReference = 80A2BA9E23F00E19005D2E39 /* NanoSparrow.app */;
 			productType = "com.apple.product-type.application";
@@ -170,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80A2BACE23F00E1D005D2E39 /* Build configuration list for PBXNativeTarget "NanoSparrowTests" */;
 			buildPhases = (
+				D4A45E411FE18E3DF9245C89 /* [CP] Check Pods Manifest.lock */,
 				80A2BAB323F00E1D005D2E39 /* Sources */,
 				80A2BAB423F00E1D005D2E39 /* Frameworks */,
 				80A2BAB523F00E1D005D2E39 /* Resources */,
@@ -188,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80A2BAD123F00E1D005D2E39 /* Build configuration list for PBXNativeTarget "NanoSparrowUITests" */;
 			buildPhases = (
+				2990DDDFFC10E8AA1F9D5F0D /* [CP] Check Pods Manifest.lock */,
 				80A2BABE23F00E1D005D2E39 /* Sources */,
 				80A2BABF23F00E1D005D2E39 /* Frameworks */,
 				80A2BAC023F00E1D005D2E39 /* Resources */,
+				5E93468F17DB6239BDC84D58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +275,6 @@
 				Base,
 			);
 			mainGroup = 80A2BA9523F00E19005D2E39;
-			packageReferences = (
-				8054DCF723FB0BA500412AEF /* XCRemoteSwiftPackageReference "Alamofire" */,
-			);
 			productRefGroup = 80A2BA9F23F00E19005D2E39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -274,6 +312,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AB16721E9847BB28E809158 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NanoSparrow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2990DDDFFC10E8AA1F9D5F0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NanoSparrow-NanoSparrowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D90AE5692B3DC05B8D33E0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NanoSparrow/Pods-NanoSparrow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NanoSparrow/Pods-NanoSparrow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NanoSparrow/Pods-NanoSparrow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E93468F17DB6239BDC84D58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NanoSparrow-NanoSparrowUITests/Pods-NanoSparrow-NanoSparrowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NanoSparrow-NanoSparrowUITests/Pods-NanoSparrow-NanoSparrowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NanoSparrow-NanoSparrowUITests/Pods-NanoSparrow-NanoSparrowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A45E411FE18E3DF9245C89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NanoSparrowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80A2BA9A23F00E19005D2E39 /* Sources */ = {
@@ -446,6 +587,7 @@
 		};
 		80A2BACC23F00E1D005D2E39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F50958241A93B4710012A53 /* Pods-NanoSparrow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = NanoSparrow/NanoSparrow.entitlements;
@@ -470,6 +612,7 @@
 		};
 		80A2BACD23F00E1D005D2E39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC9CF06B0417A21189E2B1D /* Pods-NanoSparrow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = NanoSparrow/NanoSparrow.entitlements;
@@ -494,6 +637,7 @@
 		};
 		80A2BACF23F00E1D005D2E39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2385192D9A937D424D3F8B81 /* Pods-NanoSparrowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +660,7 @@
 		};
 		80A2BAD023F00E1D005D2E39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3A7E1658CD382E414A10E6 /* Pods-NanoSparrowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +683,7 @@
 		};
 		80A2BAD223F00E1D005D2E39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000550A9A1C3A1CC298DC203 /* Pods-NanoSparrow-NanoSparrowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +704,7 @@
 		};
 		80A2BAD323F00E1D005D2E39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12560D4FB60950CEA3254766 /* Pods-NanoSparrow-NanoSparrowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -616,25 +763,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		8054DCF723FB0BA500412AEF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8054DCF823FB0BA500412AEF /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8054DCF723FB0BA500412AEF /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		80A2BAA523F00E19005D2E39 /* NanoSparrow.xcdatamodeld */ = {
